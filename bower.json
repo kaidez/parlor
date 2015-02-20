@@ -1,0 +1,25 @@
+{
+  "name": "parlor",
+  "version": "1.0.0",
+  "homepage": "http://parlorhairstudio.com/",
+  "authors": [
+    "kaidez <kai.gittens@gmail.com>"
+  ],
+  "description": "front-end dependencies for parlorhairstudio.com",
+  "main": "N/A",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "latest",
+    "jquery": "1.11.2"
+  },
+  "resolutions": {
+    "jquery": "~1.11.2"
+  }
+}
