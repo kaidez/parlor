@@ -1,16 +1,4 @@
 /*!
- Theme Name:   Parlor Hair Studio
- Theme URI:    n/a
- Description:  Twenty Fifteen Child Theme
- Author:       Parlor Hair Studio
- Author URI:   http://parlorhairstudio.com
- Template:     twentyfifteen
- Version:      1.0.0
- License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
- Text Domain:  twenty-fifteen-child
-*/
-/*!
  * Bootstrap v3.3.2 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -1407,3 +1395,4 @@ td.visible-print,th.visible-print{display:table-cell!important}}
 @media print{.visible-print-inline{display:inline!important}}
 @media print{.visible-print-inline-block{display:inline-block!important}}
 @media print{.hidden-print{display:none!important}}
+.hideElement,.site-description{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
