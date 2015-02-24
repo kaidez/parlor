@@ -10,6 +10,8 @@
  * Styles that override core Bootstrap CSS go here. Place them below
  * core Bootstrap styles and above custom styles inthe build.
  */
+.says,
+.screen-reader-text,
 .site-description {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
