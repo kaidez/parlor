@@ -31,17 +31,17 @@
   /* Large screen, retina, stuff to override above media query */
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .secondary-toggle {
+  .menu-toggle {
     display: none;
   }
 }
 @media (min-width: 1200px) {
-  .secondary-toggle {
+  .menu-toggle {
     display: none;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .secondary-toggle {
+  .menu-toggle {
     display: none;
   }
 }
