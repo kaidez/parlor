@@ -19,6 +19,13 @@
  * Styles that override core Bootstrap CSS go here. Place them below
  * core Bootstrap styles and above custom styles inthe build.
  */
+a {
+  color: #696767;
+}
+a:focus,
+a:hover {
+  color: #696767;
+}
 .says,
 .screen-reader-text,
 .site-description {
@@ -104,9 +111,9 @@
 }
 .menu-item {
   list-style-type: none;
-  text-align: left;
   display: inline-block;
-  margin-right: 12px;
+  margin-right: 15px;
+  text-align: left;
 }
 .nav-menu {
   padding-left: 11px;
