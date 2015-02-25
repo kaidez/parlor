@@ -38,6 +38,7 @@
   }
   .menu-item::before {
     content: url(/wp-content/themes/parlor/images/nav-bullet@2x.png);
+    margin-right: 5px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -51,6 +52,7 @@
   }
   .menu-item::before {
     content: url(/wp-content/themes/parlor/images/nav-bullet.png);
+    margin-right: 5px;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 768px), only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 768px), only screen and (min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-resolution: 192dpi) and (min-width: 768px), only screen and (min-resolution: 2dppx) and (min-width: 768px) {
@@ -63,6 +65,7 @@
   }
   .menu-item::before {
     content: url(/wp-content/themes/parlor/images/nav-bullet@2x.png);
+    margin-right: 5px;
   }
 }
 @media only screen and (min-width: 1300px) {
@@ -76,6 +79,7 @@
   }
   .menu-item::before {
     content: url(/wp-content/themes/parlor/images/nav-bullet.png);
+    margin-right: 5px;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1300px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 1300px), only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 1300px), only screen and (min-device-pixel-ratio: 2) and (min-width: 1300px), only screen and (min-resolution: 192dpi) and (min-width: 1300px), only screen and (min-resolution: 2dppx) and (min-width: 1300px) {
@@ -89,6 +93,7 @@
   }
   .menu-item::before {
     content: url(/wp-content/themes/parlor/images/nav-bullet@2x.png);
+    margin-right: 5px;
   }
 }
 .site-title {
@@ -101,6 +106,10 @@
   list-style-type: none;
   text-align: left;
   display: inline-block;
+  margin-right: 12px;
+}
+.nav-menu {
+  padding-left: 11px;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .menu-toggle {
