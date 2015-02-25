@@ -1408,11 +1408,16 @@ td.visible-print,th.visible-print{display:table-cell!important}}
 @media print{.visible-print-inline-block{display:inline-block!important}}
 @media print{.hidden-print{display:none!important}}
 .hideElement,.says,.screen-reader-text,.site-description{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:320px),only screen and (min-device-pixel-ratio:2) and (min-width:320px),only screen and (min-resolution:192dpi) and (min-width:320px),only screen and (min-resolution:2dppx) and (min-width:320px){.site-title{background:url(/wp-content/themes/parlor/images/logo@2x.png) no-repeat;text-indent:-999px;background-size:270px 56px;width:270px;height:56px}}
+@media only screen and (min-width:768px){.site-title{background:url(/wp-content/themes/parlor/images/logo.png) no-repeat;text-indent:-999px;background-size:270px 56px;width:270px;height:56px}}
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:768px),only screen and (min-device-pixel-ratio:2) and (min-width:768px),only screen and (min-resolution:192dpi) and (min-width:768px),only screen and (min-resolution:2dppx) and (min-width:768px){.site-title{background:url(/wp-content/themes/parlor/images/logo@2x.png) no-repeat;text-indent:-999px;background-size:270px 56px;width:270px;height:56px}}
+@media only screen and (min-width:1300px){.site-title{background:url(/wp-content/themes/parlor/images/logo.png) no-repeat;text-indent:-999px;background-size:270px 56px;width:270px;height:56px}}
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:1300px),only screen and (min-device-pixel-ratio:2) and (min-width:1300px),only screen and (min-resolution:192dpi) and (min-width:1300px),only screen and (min-resolution:2dppx) and (min-width:1300px){.site-title{background:url(/wp-content/themes/parlor/images/logo@2x.png) no-repeat;text-indent:-999px;background-size:270px 56px;width:270px;height:56px}}
 .site-title{text-align:left}
 .home-link{display:inline-block}
 .menu-item{list-style-type:none;text-align:left;display:inline-block}
 @media (min-width:992px) and (max-width:1199px){.menu-toggle{display:none}}
 @media (min-width:1200px){.menu-toggle{display:none}
-.page{width:auto;max-width:900px;text-align:center;margin:0 auto}
+.page{width:auto;max-width:900px;margin:0 auto}
 .navbar{max-width:700px;display:inline-block}}
 @media (min-width:768px) and (max-width:991px){.menu-toggle{display:none}}
