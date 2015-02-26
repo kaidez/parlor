@@ -7,7 +7,7 @@
 /*
  * HELPER CLASSES
  */
-.hideElement {
+.hide-element {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
   /* IE6, IE7 */
@@ -158,6 +158,14 @@ a:hover {
     display: inline-block;
     position: relative;
     left: 47px;
+  }
+}
+@media (max-width: 767px) {
+  .contact-information {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
