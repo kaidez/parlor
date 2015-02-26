@@ -124,11 +124,32 @@ a:hover {
   }
 }
 @media (min-width: 1200px) {
+  .contact-information {
+    background-color: #363030;
+    color: #ffffff;
+    text-align: center;
+  }
+  .contact-information-inner {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .contact-information-element {
+    display: inline-block;
+  }
+  .phone-number {
+    float: left;
+  }
+  .hours {
+    float: right;
+  }
   .menu-toggle {
     display: none;
   }
   .page {
     width: auto;
+    margin: 0 auto;
+  }
+  .site {
     max-width: 900px;
     margin: 0 auto;
   }
