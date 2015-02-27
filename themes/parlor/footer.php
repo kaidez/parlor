@@ -10,12 +10,14 @@
  */
 ?>
 
-		</div><!-- #main -->
-		<footer id="colophon" class="site-footer" role="contentinfo">
-			<?php get_sidebar( 'main' ); ?>
-		</footer><!-- #colophon -->
-	</div><!-- #page -->
+</div><!-- #main -->
+<footer id="colophon" class="site-footer" role="contentinfo">
+	<div class="site-footer-inner">
+	  Kai
+	</div>
+</footer><!-- #colophon -->
+</div><!-- #page -->
 
-	<?php wp_footer(); ?>
+<?php wp_footer(); ?>
 </body>
 </html>

@@ -103,6 +103,13 @@ a:hover {
     margin-right: 5px;
   }
 }
+html,
+body,
+.site,
+.site-main {
+  height: 100%;
+  min-height: 100%;
+}
 .site-title {
   text-align: left;
 }
@@ -118,6 +125,10 @@ a:hover {
 .nav-menu {
   padding-left: 11px;
 }
+.site-footer {
+  height: 20px;
+  background-color: red;
+}
 @media (min-width: 768px) {
   .contact-information {
     background-color: #363030;
@@ -125,7 +136,8 @@ a:hover {
     text-align: center;
     padding: 2px 0;
   }
-  .contact-information-inner {
+  .contact-information-inner,
+  .site-footer-inner {
     max-width: 900px;
     margin: 0 auto;
   }
@@ -153,8 +165,16 @@ a:hover {
     margin: 0 auto;
   }
   .site {
+    margin: 0 auto;
+  }
+  .site-header {
     max-width: 900px;
     margin: 0 auto;
+  }
+  .site-footer {
+    background: #ababab;
+    color: #363030;
+    height: 30px;
   }
   .navbar {
     max-width: 700px;

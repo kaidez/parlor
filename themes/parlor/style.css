@@ -1421,19 +1421,23 @@ a,a:focus,a:hover{color:#696767}
 .menu-item::before{content:url(/wp-content/themes/parlor/images/nav-bullet.png);margin-right:5px}}
 @media only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:1300px),only screen and (min-device-pixel-ratio:2) and (min-width:1300px),only screen and (min-resolution:192dpi) and (min-width:1300px),only screen and (min-resolution:2dppx) and (min-width:1300px){.site-title{background:url(/wp-content/themes/parlor/images/logo@2x.png) no-repeat;text-indent:-999px;background-size:270px 56px;width:270px;height:56px}
 .menu-item::before{content:url(/wp-content/themes/parlor/images/nav-bullet@2x.png);margin-right:5px}}
+.site,.site-main,body,html{height:100%;min-height:100%}
 .site-title{text-align:left}
 .home-link{display:inline-block}
 .menu-item{list-style-type:none;display:inline-block;margin-right:15px;text-align:left}
 .nav-menu{padding-left:11px}
+.site-footer{height:20px;background-color:red}
 @media (min-width:768px){.contact-information{background-color:#363030;color:#fff;text-align:center;padding:2px 0}
-.contact-information-inner{max-width:900px;margin:0 auto}
+.contact-information-inner,.site-footer-inner{max-width:900px;margin:0 auto}
 .contact-information-element{display:inline-block}
 .phone-number{float:left}
 .hours{float:right}}
 @media (min-width:992px) and (max-width:1199px){.menu-toggle{display:none}}
 @media (min-width:1200px){.menu-toggle{display:none}
 .page{width:auto;margin:0 auto}
-.site{max-width:900px;margin:0 auto}
+.site{margin:0 auto}
+.site-header{max-width:900px;margin:0 auto}
+.site-footer{background:#ababab;color:#363030;height:30px}
 .navbar{max-width:700px;display:inline-block;position:relative;left:47px}}
 @media (max-width:767px){.contact-information{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}}
 @media (min-width:768px) and (max-width:991px){.menu-toggle{display:none}}
