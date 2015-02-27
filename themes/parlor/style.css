@@ -1439,5 +1439,14 @@ a,a:focus,a:hover{color:#696767}
 .site-header{max-width:900px;margin:0 auto}
 .site-footer{background:#ababab;color:#363030;height:30px}
 .navbar{max-width:700px;display:inline-block;position:relative;left:47px}}
-@media (max-width:767px){.contact-information{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}}
+@media (max-width:767px){.contact-information{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
+.toggled-on .menu-toggle:after{vertical-align:2px}
+.toggled-on .nav-menu,.toggled-on .nav-menu>ul{display:block;margin-left:0;padding:0;width:100%}
+.toggled-on .children,.toggled-on li{display:block}
+.toggled-on .nav-menu li>ul{background-color:transparent;display:block;float:none;margin-left:20px;position:relative;left:auto;top:auto}
+.toggled-on .nav-menu li>ul a{color:#141412;width:auto}
+.toggled-on .nav-menu .children a,.toggled-on .nav-menu li:hover>a{background-color:transparent;color:#141412}
+.toggled-on .nav-menu>li a:hover,.toggled-on .nav-menu>ul a:hover{background-color:#db572f;color:#fff}
+.toggled-on .nav-menu>li a:focus,.toggled-on .nav-menu>ul a:focus{background-color:#220e10;color:#fff}
+div.nav-menu>ul,ul.nav-menu{display:none}}
 @media (min-width:768px) and (max-width:991px){.menu-toggle{display:none}}

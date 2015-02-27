@@ -190,6 +190,52 @@ body,
     /* IE6, IE7 */
     clip: rect(1px, 1px, 1px, 1px);
   }
+  .toggled-on .menu-toggle:after {
+    vertical-align: 2px;
+  }
+  .toggled-on .nav-menu,
+  .toggled-on .nav-menu > ul {
+    display: block;
+    margin-left: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .toggled-on li,
+  .toggled-on .children {
+    display: block;
+  }
+  .toggled-on .nav-menu li > ul {
+    background-color: transparent;
+    display: block;
+    float: none;
+    margin-left: 20px;
+    position: relative;
+    left: auto;
+    top: auto;
+  }
+  .toggled-on .nav-menu li > ul a {
+    color: #141412;
+    width: auto;
+  }
+  .toggled-on .nav-menu li:hover > a,
+  .toggled-on .nav-menu .children a {
+    background-color: transparent;
+    color: #141412;
+  }
+  .toggled-on .nav-menu > li a:hover,
+  .toggled-on .nav-menu > ul a:hover {
+    background-color: #db572f;
+    color: #fff;
+  }
+  .toggled-on .nav-menu > li a:focus,
+  .toggled-on .nav-menu > ul a:focus {
+    background-color: #220e10;
+    color: #fff;
+  }
+  ul.nav-menu,
+  div.nav-menu > ul {
+    display: none;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .menu-toggle {
