@@ -1,5 +1,5 @@
 <?php
-  // Import the Twenty Fifteen stylesheet to the parlor theme
+  // Import the Twenty Thirteen stylesheet to the parlor theme
 	// This will (probably) be deleted from the final build
 
   // add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
