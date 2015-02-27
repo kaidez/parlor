@@ -1423,10 +1423,19 @@ a,a:focus,a:hover{color:#696767}
 .menu-item::before{content:url(/wp-content/themes/parlor/images/nav-bullet@2x.png);margin-right:5px}}
 .site,.site-main,body,html{height:100%;min-height:100%}
 .site-title{text-align:left}
+.site-footer{height:20px;background-color:#ababab}
 .home-link{display:inline-block}
-.menu-item{list-style-type:none;display:inline-block;margin-right:15px;text-align:left}
+.menu-item{list-style-type:none;margin-right:7px;text-align:left}
 .nav-menu{padding-left:11px}
-.site-footer{height:20px;background-color:red}
+.main-navigation{clear:both;margin:0 auto;max-width:1080px;min-height:45px;position:relative}
+div.nav-menu>ul,ul.nav-menu{margin:0}
+.nav-menu li{display:inline-block;position:relative}
+.nav-menu li a:focus,.nav-menu li a:hover,.nav-menu li:focus>a,.nav-menu li:hover>a{background-color:#220e10;color:#fff}
+.nav-menu .children,.nav-menu .sub-menu{background-color:#220e10;border:2px solid #f7f5e7;border-top:0;padding:0;position:absolute;left:-2px;z-index:99999;height:1px;width:1px;overflow:hidden;clip:rect(1px,1px,1px,1px)}
+.nav-menu .children ul,.nav-menu .sub-menu ul{border-left:0;left:100%;top:0}
+.nav-menu ul ul a,ul.nav-menu ul a{color:#fff;margin:0;width:200px}
+.nav-menu ul ul a:focus,.nav-menu ul ul a:hover,ul.nav-menu ul a:focus,ul.nav-menu ul a:hover{background-color:#db572f}
+.nav-menu .focus>ul,.nav-menu ul li:hover>ul,ul.nav-menu .focus>ul,ul.nav-menu li:hover>ul{clip:inherit;overflow:inherit;height:inherit;width:inherit}
 @media (min-width:768px){.contact-information{background-color:#363030;color:#fff;text-align:center;padding:2px 0}
 .contact-information-inner,.site-footer-inner{max-width:900px;margin:0 auto}
 .contact-information-element{display:inline-block}
@@ -1438,7 +1447,7 @@ a,a:focus,a:hover{color:#696767}
 .site{margin:0 auto}
 .site-header{max-width:900px;margin:0 auto}
 .site-footer{background:#ababab;color:#363030;height:30px}
-.navbar{max-width:700px;display:inline-block;position:relative;left:47px}}
+.navbar{max-width:600px;display:inline-block;left:47px}}
 @media (max-width:767px){.contact-information{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
 .toggled-on .menu-toggle:after{vertical-align:2px}
 .toggled-on .nav-menu,.toggled-on .nav-menu>ul{display:block;margin-left:0;padding:0;width:100%}

@@ -113,21 +113,87 @@ body,
 .site-title {
   text-align: left;
 }
+.site-footer {
+  height: 20px;
+  background-color: #ababab;
+}
 .home-link {
   display: inline-block;
 }
 .menu-item {
   list-style-type: none;
-  display: inline-block;
-  margin-right: 15px;
+  margin-right: 7px;
   text-align: left;
 }
 .nav-menu {
   padding-left: 11px;
 }
-.site-footer {
-  height: 20px;
-  background-color: red;
+.nav-menu li {
+  display: inline-block;
+  position: relative;
+}
+.main-navigation {
+  clear: both;
+  margin: 0 auto;
+  max-width: 1080px;
+  min-height: 45px;
+  position: relative;
+}
+ul.nav-menu,
+div.nav-menu > ul {
+  margin: 0;
+}
+.nav-menu li {
+  display: inline-block;
+  position: relative;
+}
+.nav-menu li:hover > a,
+.nav-menu li a:hover,
+.nav-menu li:focus > a,
+.nav-menu li a:focus {
+  background-color: #220e10;
+  color: #fff;
+}
+.nav-menu .sub-menu,
+.nav-menu .children {
+  background-color: #220e10;
+  border: 2px solid #f7f5e7;
+  border-top: 0;
+  padding: 0;
+  position: absolute;
+  left: -2px;
+  z-index: 99999;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+.nav-menu .sub-menu ul,
+.nav-menu .children ul {
+  border-left: 0;
+  left: 100%;
+  top: 0;
+}
+ul.nav-menu ul a,
+.nav-menu ul ul a {
+  color: #fff;
+  margin: 0;
+  width: 200px;
+}
+ul.nav-menu ul a:hover,
+.nav-menu ul ul a:hover,
+ul.nav-menu ul a:focus,
+.nav-menu ul ul a:focus {
+  background-color: #db572f;
+}
+ul.nav-menu li:hover > ul,
+.nav-menu ul li:hover > ul,
+ul.nav-menu .focus > ul,
+.nav-menu .focus > ul {
+  clip: inherit;
+  overflow: inherit;
+  height: inherit;
+  width: inherit;
 }
 @media (min-width: 768px) {
   .contact-information {
@@ -177,9 +243,8 @@ body,
     height: 30px;
   }
   .navbar {
-    max-width: 700px;
+    max-width: 600px;
     display: inline-block;
-    position: relative;
     left: 47px;
   }
 }
