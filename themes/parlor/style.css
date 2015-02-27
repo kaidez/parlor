@@ -1427,6 +1427,7 @@ a,a:focus,a:hover{color:#696767}
 .home-link{display:inline-block}
 .menu-item{list-style-type:none;margin-right:7px;text-align:left}
 .nav-menu{padding-left:11px}
+.main-navigation-header{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
 .main-navigation{clear:both;margin:0 auto;max-width:1080px;min-height:45px;position:relative}
 div.nav-menu>ul,ul.nav-menu{margin:0}
 .nav-menu li{display:inline-block;position:relative}

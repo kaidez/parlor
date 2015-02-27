@@ -128,6 +128,12 @@ body,
 .nav-menu {
   padding-left: 11px;
 }
+.main-navigation-header {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
 .nav-menu li {
   display: inline-block;
   position: relative;
