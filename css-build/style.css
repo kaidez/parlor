@@ -118,16 +118,12 @@ a:hover {
 .nav-menu {
   padding-left: 11px;
 }
-@media (min-width: 992px) and (max-width: 1199px) {
-  .menu-toggle {
-    display: none;
-  }
-}
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .contact-information {
     background-color: #363030;
     color: #ffffff;
     text-align: center;
+    padding: 2px 0;
   }
   .contact-information-inner {
     max-width: 900px;
@@ -142,6 +138,13 @@ a:hover {
   .hours {
     float: right;
   }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
   .menu-toggle {
     display: none;
   }
