@@ -1,21 +1,22 @@
+// Make sure the entire page stretches to the botton
 html, body, .site, .site-main {
 	height: 100%;
 	min-height:100%;
 }
-
 
 // Move the main h1/logo to the left
 .site-title {
 	text-align: left;
 }
 
-	// Globally limit the header's width to 900px
-	.site-header {
-	  margin: 0 auto;
-	}
+// Globally center the header
+.site-header {
+	margin: 0 auto;
+}
 
+// Style the footer
 .site-footer {
-  height: 20px;
+	height: 20px;
 	background-color: rgba(171, 171, 171, 1);
 }
 
@@ -25,6 +26,14 @@ html, body, .site, .site-main {
 	display: inline-block;
 }
 
+
+/*
+* =====================================================================
+* Start main navigation styling
+* Most of this was brought over from the "twentythirteen" stylesheet
+* =====================================================================
+*/
+
 // left-align & center menu items
 .menu-item {
 	list-style-type: none;
@@ -33,32 +42,28 @@ html, body, .site, .site-main {
 	text-align: left;
 }
 
-// Reduce left padding in the main nav
-.nav-menu {
-	padding-left:11px;
-}
-
 // Hide the menu header tag
 .main-navigation-header {
 	.hide-element();
 }
 
-.nav-menu li {
-	display: inline-block;
-	position: relative;
-}
-
-
-
-
-
-
-
-
 .main-navigation {
 	clear: both;
 	margin: 0 auto;
 	max-width: 1080px;
+	position: relative;
+}
+
+// Reduce left padding in the main nav
+.nav-menu {
+	padding-left:11px;
+}
+
+// ".nav-menu" is the <ul> that contains all the page links
+// links are, obviously, in an <li>
+// Lots of styling for those elements
+.nav-menu li {
+	display: inline-block;
 	position: relative;
 }
 
@@ -72,7 +77,7 @@ div.nav-menu > ul {
 	position: relative;
 }
 
-
+// Style link states
 .nav-menu li:hover > a,
 .nav-menu li a:hover,
 .nav-menu li:focus > a,
@@ -81,9 +86,14 @@ div.nav-menu > ul {
 	color: #fff;
 }
 
+// Style sub-menu links
+.sub-menu li {
+	width: 200px;
+}
+
+// Style link the services sub-menu
 .nav-menu .sub-menu,
 .nav-menu .children {
-	background-color: #220e10;
 	border-top: 0;
 	padding: 0;
 	position: absolute;
@@ -93,6 +103,8 @@ div.nav-menu > ul {
 	width: 1px;
 	overflow: hidden;
 	clip: rect(1px, 1px, 1px, 1px);
+
+	background-color: #220e10;
 }
 
 .nav-menu .sub-menu ul,
@@ -104,9 +116,10 @@ div.nav-menu > ul {
 
 ul.nav-menu ul a,
 .nav-menu ul ul a {
-	color: #fff;
 	margin: 0;
 	width: 200px;
+
+	color: #fff;
 }
 
 ul.nav-menu ul a:hover,
@@ -126,7 +139,8 @@ ul.nav-menu .focus > ul,
 	width: inherit;
 }
 
-/* Style sub-menu links*/
-.sub-menu li {
-	width: 200px;
-}
+/*
+* =====================================================================
+* End main navigation styling
+* =====================================================================
+*/

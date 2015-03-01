@@ -1,23 +1,48 @@
 @media (max-width: 767px) {
 
+  // On handhelds, center the logo
   .site-header {
     text-align: center;
   }
-  // Hide the contact on mobile views
+
+  // Hide the contact header strip on mobile views
   .contact-information {
     .hide-element();
   }
 
+  // Style the "hamburger" menu that appears on handhelds only
+  .hamburger-menu {
+    // Structure
+    display: block;
+    width: 25px;
+    height: 4px;
+    margin: 5px 0;
+
+    // Style
+    background: #000;
+  }
+
+  // Hide the navigation on page-load for the mobile view
+  // Clicking on the "hamburger" menu makes it appear
+  ul.nav-menu, div.nav-menu > ul {
+    display: none;
+  }
+
+  // Do this so the drop-down nav doesn't push elements down the page
   .main-navigation {
     z-index: 2;
     position: absolute;
   }
 
+  // Position the hamburger menu
   .navbar {
     top: -51px;
     left: 28px;
   }
 
+
+  // "toggled-on" classess are related to the drop-down menu
+  // Many are about to follow
   .toggled-on .menu-toggle:after {
     vertical-align: 2px;
   }
@@ -66,19 +91,6 @@
   .toggled-on .nav-menu > ul a:focus {
     background-color: #220e10;
     color: #fff;
-  }
-
-  // Hide the navigation on the mobile view
-  ul.nav-menu, div.nav-menu > ul {
-    display: none;
-  }
-
-  .hamburger-menu {
-    display: block;
-    width: 25px;
-    height: 4px;
-    margin: 5px 0;
-    background: #000;
   }
 
 }
