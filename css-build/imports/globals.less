@@ -9,6 +9,10 @@ html, body, .site, .site-main {
 	text-align: left;
 }
 
+	// Globally limit the header's width to 900px
+	.site-header {
+	  margin: 0 auto;
+	}
 
 .site-footer {
   height: 20px;
@@ -55,7 +59,6 @@ html, body, .site, .site-main {
 	clear: both;
 	margin: 0 auto;
 	max-width: 1080px;
-	min-height: 45px;
 	position: relative;
 }
 
@@ -81,7 +84,6 @@ div.nav-menu > ul {
 .nav-menu .sub-menu,
 .nav-menu .children {
 	background-color: #220e10;
-	border: 2px solid #f7f5e7;
 	border-top: 0;
 	padding: 0;
 	position: absolute;
@@ -122,4 +124,9 @@ ul.nav-menu .focus > ul,
 	overflow: inherit;
 	height: inherit;
 	width: inherit;
+}
+
+/* Style sub-menu links*/
+.sub-menu li {
+	width: 200px;
 }

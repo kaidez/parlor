@@ -1,8 +1,6 @@
 .logo {
   text-indent: -999px;
-  background-size: 270px 56px;
-  width: 270px;
-  height: 56px;
+  background-size: 210px 48px;
 }
 /*
  * HELPER CLASSES
@@ -39,9 +37,9 @@ a:hover {
   .site-title {
     background: url(/wp-content/themes/parlor/images/logo@2x.png) no-repeat;
     text-indent: -999px;
-    background-size: 270px 56px;
-    width: 270px;
-    height: 56px;
+    background-size: 210px 48px;
+    width: 210px;
+    height: 48px;
   }
   .menu-item::before {
     content: url(/wp-content/themes/parlor/images/nav-bullet@2x.png);
@@ -53,9 +51,7 @@ a:hover {
   .site-title {
     background: url(/wp-content/themes/parlor/images/logo.png) no-repeat;
     text-indent: -999px;
-    background-size: 270px 56px;
-    width: 270px;
-    height: 56px;
+    background-size: 210px 48px;
   }
   .menu-item::before {
     content: url(/wp-content/themes/parlor/images/nav-bullet.png);
@@ -66,9 +62,7 @@ a:hover {
   .site-title {
     background: url(/wp-content/themes/parlor/images/logo@2x.png) no-repeat;
     text-indent: -999px;
-    background-size: 270px 56px;
-    width: 270px;
-    height: 56px;
+    background-size: 210px 48px;
   }
   .menu-item::before {
     content: url(/wp-content/themes/parlor/images/nav-bullet@2x.png);
@@ -78,11 +72,11 @@ a:hover {
 @media only screen and (min-width: 1300px) {
   /* Large screen, non-retina */
   .site-title {
-    background: url(/wp-content/themes/parlor/images/logo.png) no-repeat;
+    background: url(/wp-content/themes/parlor/images/logo.png) no-repeat 10px -64px;
     text-indent: -999px;
-    background-size: 270px 56px;
-    width: 270px;
-    height: 56px;
+    background-size: 210px 48px;
+    width: 210px;
+    height: 48px;
   }
   .menu-item::before {
     content: url(/wp-content/themes/parlor/images/nav-bullet.png);
@@ -94,9 +88,7 @@ a:hover {
   .site-title {
     background: url(/wp-content/themes/parlor/images/logo@2x.png) no-repeat;
     text-indent: -999px;
-    background-size: 270px 56px;
-    width: 270px;
-    height: 56px;
+    background-size: 210px 48px;
   }
   .menu-item::before {
     content: url(/wp-content/themes/parlor/images/nav-bullet@2x.png);
@@ -112,6 +104,9 @@ body,
 }
 .site-title {
   text-align: left;
+}
+.site-header {
+  margin: 0 auto;
 }
 .site-footer {
   height: 20px;
@@ -142,7 +137,6 @@ body,
   clear: both;
   margin: 0 auto;
   max-width: 1080px;
-  min-height: 45px;
   position: relative;
 }
 ul.nav-menu,
@@ -163,7 +157,6 @@ div.nav-menu > ul {
 .nav-menu .sub-menu,
 .nav-menu .children {
   background-color: #220e10;
-  border: 2px solid #f7f5e7;
   border-top: 0;
   padding: 0;
   position: absolute;
@@ -201,7 +194,14 @@ ul.nav-menu .focus > ul,
   height: inherit;
   width: inherit;
 }
+/* Style sub-menu links*/
+.sub-menu li {
+  width: 200px;
+}
 @media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
   .contact-information {
     background-color: #363030;
     color: #ffffff;
@@ -222,10 +222,15 @@ ul.nav-menu .focus > ul,
   .hours {
     float: right;
   }
+  .navbar {
+    max-width: 600px;
+    display: inline-block;
+    left: 47px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .menu-toggle {
-    display: none;
+  .site-header {
+    max-width: 818px;
   }
 }
 @media (min-width: 1200px) {
@@ -236,12 +241,8 @@ ul.nav-menu .focus > ul,
     width: auto;
     margin: 0 auto;
   }
-  .site {
-    margin: 0 auto;
-  }
   .site-header {
     max-width: 900px;
-    margin: 0 auto;
   }
   .site-footer {
     background: #ababab;
@@ -255,11 +256,22 @@ ul.nav-menu .focus > ul,
   }
 }
 @media (max-width: 767px) {
+  .site-header {
+    text-align: center;
+  }
   .contact-information {
     position: absolute !important;
     clip: rect(1px 1px 1px 1px);
     /* IE6, IE7 */
     clip: rect(1px, 1px, 1px, 1px);
+  }
+  .main-navigation {
+    z-index: 2;
+    position: absolute;
+  }
+  .navbar {
+    top: -51px;
+    left: 28px;
   }
   .toggled-on .menu-toggle:after {
     vertical-align: 2px;
@@ -307,9 +319,23 @@ ul.nav-menu .focus > ul,
   div.nav-menu > ul {
     display: none;
   }
+  .hamburger-menu {
+    display: block;
+    width: 25px;
+    height: 4px;
+    margin: 5px 0;
+    background: #000;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .menu-toggle {
     display: none;
+  }
+  .site {
+    margin: 0 auto;
+  }
+  .navbar {
+    max-width: 600px;
+    left: 0;
   }
 }

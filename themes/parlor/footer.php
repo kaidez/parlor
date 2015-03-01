@@ -13,7 +13,8 @@
 </div><!-- #main -->
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<div class="site-footer-inner">
-	  Kai
+	  <span>copyright 2006-15 Parlor Hair Studio</span>
+		<span>sitemap</span>
 	</div>
 </footer><!-- #colophon -->
 </div><!-- #page -->

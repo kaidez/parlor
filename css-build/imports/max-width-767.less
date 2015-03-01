@@ -1,8 +1,21 @@
 @media (max-width: 767px) {
 
+  .site-header {
+    text-align: center;
+  }
   // Hide the contact on mobile views
   .contact-information {
     .hide-element();
+  }
+
+  .main-navigation {
+    z-index: 2;
+    position: absolute;
+  }
+
+  .navbar {
+    top: -51px;
+    left: 28px;
   }
 
   .toggled-on .menu-toggle:after {
@@ -58,6 +71,14 @@
   // Hide the navigation on the mobile view
   ul.nav-menu, div.nav-menu > ul {
     display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+    width: 25px;
+    height: 4px;
+    margin: 5px 0;
+    background: #000;
   }
 
 }
