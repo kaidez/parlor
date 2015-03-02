@@ -1,15 +1,20 @@
 .logo {
   text-indent: -999px;
-  background-size: 210px 48px;
+  background-size: 270px 56px;
 }
 /*
- * HELPER CLASSES
- */
+* HELPER CLASSES
+*/
 .hide-element {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
   /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
+}
+.col-md-6-mixin {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
 }
 /*
  * BOOTSTRAP OVERRIDES
@@ -38,20 +43,20 @@ a:hover {
     background: url(/wp-/wp-content/themes/parlor/images/logo@2x.png) no-repeat;
     text-indent: -999px;
     background-size: 210px 48px;
-    width: 210px;
-    height: 48px;
+    width: 260px;
+    height: 56px;
   }
   .menu-item::before {
-    content: url(/wp//wp-content/themes/parlor/images/nav-bullet@2x.png);
+    content: url(/wp/wp-content/themes/parlor/images/nav-bullet@2x.png);
     margin-right: 5px;
   }
 }
 @media only screen and (min-width: 768px) {
   /* Medium screen, non-retina */
   .site-title {
-    background: url(/wp//wp-content/themes/parlor/images/logo.png) no-repeat;
+    background: url(/wp/wp-content/themes/parlor/images/logo.png) no-repeat;
     text-indent: -999px;
-    background-size: 210px 48px;
+    background-size: 270px 56px;
   }
   .menu-item::before {
     content: url(/wp//wp-content/themes/parlor/images/nav-bullet.png);
@@ -60,38 +65,38 @@ a:hover {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 768px), only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 768px), only screen and (min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-resolution: 192dpi) and (min-width: 768px), only screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .site-title {
-    background: url(/wp//wp-content/themes/parlor/images/logo@2x.png) no-repeat;
+    background: url(/wp/wp-content/themes/parlor/images/logo@2x.png) no-repeat;
     text-indent: -999px;
-    background-size: 210px 48px;
+    background-size: 270px 56px;
   }
   .menu-item::before {
-    content: url(/wp//wp-content/themes/parlor/images/nav-bullet@2x.png);
+    content: url(/wp/wp-content/themes/parlor/images/nav-bullet@2x.png);
     margin-right: 5px;
   }
 }
 @media only screen and (min-width: 1300px) {
   /* Large screen, non-retina */
   .site-title {
-    background: url(/wp//wp-content/themes/parlor/images/logo.png) no-repeat 10px -64px;
+    background: url(/wp/wp-content/themes/parlor/images/logo.png) no-repeat;
     text-indent: -999px;
-    background-size: 210px 48px;
-    width: 210px;
-    height: 48px;
+    background-size: 270px 56px;
+    width: 270px;
+    height: 56px;
   }
   .menu-item::before {
-    content: url(/wp//wp-content/themes/parlor/images/nav-bullet.png);
+    content: url(/wp/wp-content/themes/parlor/images/nav-bullet.png);
     margin-right: 5px;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1300px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 1300px), only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 1300px), only screen and (min-device-pixel-ratio: 2) and (min-width: 1300px), only screen and (min-resolution: 192dpi) and (min-width: 1300px), only screen and (min-resolution: 2dppx) and (min-width: 1300px) {
   /* Large screen, retina, stuff to override above media query */
   .site-title {
-    background: url(/wp//wp-content/themes/parlor/images/logo@2x.png) no-repeat;
+    background: url(/wp/wp-content/themes/parlor/images/logo@2x.png) no-repeat;
     text-indent: -999px;
-    background-size: 210px 48px;
+    background-size: 270px 56px;
   }
   .menu-item::before {
-    content: url(/wp//wp-content/themes/parlor/images/nav-bullet@2x.png);
+    content: url(/wp/wp-content/themes/parlor/images/nav-bullet@2x.png);
     margin-right: 5px;
   }
 }
@@ -246,6 +251,11 @@ ul.nav-menu .focus > ul,
   .site-header {
     max-width: 818px;
   }
+  .col-md-6 {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+  }
 }
 @media (min-width: 1200px) {
   .page {
@@ -336,6 +346,13 @@ ul.nav-menu .focus > ul,
   .toggled-on .nav-menu > ul a:focus {
     background-color: #220e10;
     color: #fff;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
   }
 }
 .frs-slideshow-container#home-pagepjc {
