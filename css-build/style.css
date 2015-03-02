@@ -338,3 +338,6 @@ ul.nav-menu .focus > ul,
     color: #fff;
   }
 }
+.frs-slideshow-container#home-pagepjc {
+  margin: 0 !important;
+}
