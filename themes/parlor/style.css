@@ -1407,20 +1407,21 @@ td.visible-print,th.visible-print{display:table-cell!important}}
 @media print{.visible-print-inline{display:inline!important}}
 @media print{.visible-print-inline-block{display:inline-block!important}}
 @media print{.hidden-print{display:none!important}}
-.logo{text-indent:-999px;background-size:210px 48px}
+.logo{text-indent:-999px;background-size:270px 56px}
 .hide-element{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
+.col-md-6-mixin{width:300px;display:inline-block;vertical-align:top}
 a,a:focus,a:hover{color:#696767}
 .says,.screen-reader-text,.site-description{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
-@media only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:320px),only screen and (min-device-pixel-ratio:2) and (min-width:320px),only screen and (min-resolution:192dpi) and (min-width:320px),only screen and (min-resolution:2dppx) and (min-width:320px){.site-title{background:url(/wp-/wp-content/themes/parlor/images/logo@2x.png) no-repeat;text-indent:-999px;background-size:210px 48px;width:210px;height:48px}
-.menu-item::before{content:url(../../../../../wp/wp-content/themes/parlor/images/nav-bullet@2x.png);margin-right:5px}}
-@media only screen and (min-width:768px){.site-title{background:url(../../../../../wp/wp-content/themes/parlor/images/logo.png) no-repeat;text-indent:-999px;background-size:210px 48px}
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:320px),only screen and (min-device-pixel-ratio:2) and (min-width:320px),only screen and (min-resolution:192dpi) and (min-width:320px),only screen and (min-resolution:2dppx) and (min-width:320px){.site-title{background:url(/wp-/wp-content/themes/parlor/images/logo@2x.png) no-repeat;text-indent:-999px;background-size:210px 48px;width:260px;height:56px}
+.menu-item::before{content:url(/wp/wp-content/themes/parlor/images/nav-bullet@2x.png);margin-right:5px}}
+@media only screen and (min-width:768px){.site-title{background:url(/wp/wp-content/themes/parlor/images/logo.png) no-repeat;text-indent:-999px;background-size:270px 56px}
 .menu-item::before{content:url(../../../../../wp/wp-content/themes/parlor/images/nav-bullet.png);margin-right:5px}}
-@media only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:768px),only screen and (min-device-pixel-ratio:2) and (min-width:768px),only screen and (min-resolution:192dpi) and (min-width:768px),only screen and (min-resolution:2dppx) and (min-width:768px){.site-title{background:url(../../../../../wp/wp-content/themes/parlor/images/logo@2x.png) no-repeat;text-indent:-999px;background-size:210px 48px}
-.menu-item::before{content:url(../../../../../wp/wp-content/themes/parlor/images/nav-bullet@2x.png);margin-right:5px}}
-@media only screen and (min-width:1300px){.site-title{background:url(../../../../../wp/wp-content/themes/parlor/images/logo.png) 10px -64px no-repeat;text-indent:-999px;background-size:210px 48px;width:210px;height:48px}
-.menu-item::before{content:url(../../../../../wp/wp-content/themes/parlor/images/nav-bullet.png);margin-right:5px}}
-@media only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:1300px),only screen and (min-device-pixel-ratio:2) and (min-width:1300px),only screen and (min-resolution:192dpi) and (min-width:1300px),only screen and (min-resolution:2dppx) and (min-width:1300px){.site-title{background:url(../../../../../wp/wp-content/themes/parlor/images/logo@2x.png) no-repeat;text-indent:-999px;background-size:210px 48px}
-.menu-item::before{content:url(../../../../../wp/wp-content/themes/parlor/images/nav-bullet@2x.png);margin-right:5px}}
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:768px),only screen and (min-device-pixel-ratio:2) and (min-width:768px),only screen and (min-resolution:192dpi) and (min-width:768px),only screen and (min-resolution:2dppx) and (min-width:768px){.site-title{background:url(/wp/wp-content/themes/parlor/images/logo@2x.png) no-repeat;text-indent:-999px;background-size:270px 56px}
+.menu-item::before{content:url(/wp/wp-content/themes/parlor/images/nav-bullet@2x.png);margin-right:5px}}
+@media only screen and (min-width:1300px){.site-title{background:url(/wp/wp-content/themes/parlor/images/logo.png) no-repeat;text-indent:-999px;background-size:270px 56px;width:270px;height:56px}
+.menu-item::before{content:url(/wp/wp-content/themes/parlor/images/nav-bullet.png);margin-right:5px}}
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:1300px),only screen and (min-device-pixel-ratio:2) and (min-width:1300px),only screen and (min-resolution:192dpi) and (min-width:1300px),only screen and (min-resolution:2dppx) and (min-width:1300px){.site-title{background:url(/wp/wp-content/themes/parlor/images/logo@2x.png) no-repeat;text-indent:-999px;background-size:270px 56px}
+.menu-item::before{content:url(/wp/wp-content/themes/parlor/images/nav-bullet@2x.png);margin-right:5px}}
 .site,.site-main,body,html{height:100%;min-height:100%}
 .site-title{text-align:left}
 .site-header{margin:0 auto}
@@ -1447,7 +1448,8 @@ div.nav-menu>ul,ul.nav-menu{margin:0}
 .phone-number{float:left}
 .hours{float:right}
 .navbar{max-width:600px;display:inline-block;left:47px}}
-@media (min-width:992px) and (max-width:1199px){.site-header{max-width:818px}}
+@media (min-width:992px) and (max-width:1199px){.site-header{max-width:818px}
+.col-md-6{width:300px;display:inline-block;vertical-align:top}}
 @media (min-width:1200px){.page{width:auto;margin:0 auto}
 .site-header{max-width:900px}
 .site-footer{background:#ababab;color:#363030;height:30px}
@@ -1466,4 +1468,5 @@ div.nav-menu>ul,ul.nav-menu{display:none}
 .toggled-on .nav-menu .children a,.toggled-on .nav-menu li:hover>a{background-color:transparent;color:#141412}
 .toggled-on .nav-menu>li a:hover,.toggled-on .nav-menu>ul a:hover{background-color:#db572f;color:#fff}
 .toggled-on .nav-menu>li a:focus,.toggled-on .nav-menu>ul a:focus{background-color:#220e10;color:#fff}}
+@media (min-width:768px) and (max-width:991px){.col-md-6{width:300px;display:inline-block;vertical-align:top}}
 .frs-slideshow-container#home-pagepjc{margin:0!important}
