@@ -2,7 +2,7 @@
 
   // Force the height of the home page on handhelds
   .home .site-main {
-    min-height: 1200px;
+    min-height: 900px;
   }
 
   // On handhelds, center the logo
@@ -35,8 +35,8 @@
 
   // Do this so the drop-down nav doesn't push elements down the page
   .main-navigation {
-    z-index: 2;
     position: absolute;
+    .z5();
   }
 
   // Position the hamburger menu
@@ -45,6 +45,19 @@
     left: 28px;
   }
 
+  // Add a background color to the mobile drop-down menu
+  .menu-main-container {
+    background: rgba(246, 246, 246, 1);
+    -webkit-box-shadow: 10px 9px 5px -5px rgba(0,0,0,0.37);
+    -moz-box-shadow: 10px 9px 5px -5px rgba(0,0,0,0.37);
+    box-shadow: 10px 9px 5px -5px rgba(0,0,0,0.37);
+  }
+
+
+  .menu-item {
+    font-size: 18px;
+    margin: 6px 0;
+  }
 
   // "toggled-on" classess are related to the drop-down menu
   // Many are about to follow

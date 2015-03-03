@@ -4,10 +4,32 @@
   height: 41px;
   text-indent: -999px;
 }
+.facebook-image {
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  text-indent: -999px;
+}
 .col-md-6-mixin {
   width: 300px;
   display: inline-block;
   vertical-align: top;
+}
+.z1 {
+  z-index: 1;
+}
+.z2 {
+  z-index: 2;
+}
+.z3 {
+  z-index: 3;
+}
+.z4 {
+  z-index: 4;
+}
+.z5 {
+  z-index: 5;
 }
 /*
  * HELPER CLASSES
@@ -75,8 +97,16 @@ a:hover {
     text-indent: -999px;
   }
   .menu-item::before {
-    content: url(/wp//wp-content/themes/parlor/images/nav-bullet.png);
+    content: url(/wp/wp-content/themes/parlor/images/nav-bullet.png);
     margin-right: 5px;
+  }
+  .facebook-link {
+    background: url(/wp/wp-content/themes/parlor/images/facebook-image.png) no-repeat;
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    text-indent: -999px;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 768px), only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 768px), only screen and (min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-resolution: 192dpi) and (min-width: 768px), only screen and (min-resolution: 2dppx) and (min-width: 768px) {
@@ -85,6 +115,14 @@ a:hover {
     background-size: 200px 41px;
     width: 200px;
     height: 41px;
+    text-indent: -999px;
+  }
+  .facebook-link {
+    background: url(/wp/wp-content/themes/parlor/images/facebook-image@2x.png) no-repeat;
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
     text-indent: -999px;
   }
   .menu-item::before {
@@ -277,7 +315,8 @@ ul.nav-menu .focus > ul,
   .phone-number {
     float: left;
   }
-  .hours {
+  .hours,
+  .sitemap-link {
     float: right;
   }
   .navbar {
@@ -324,7 +363,7 @@ ul.nav-menu .focus > ul,
 }
 @media (max-width: 767px) {
   .home .site-main {
-    min-height: 1200px;
+    min-height: 900px;
   }
   .site-header {
     text-align: center;
@@ -347,12 +386,22 @@ ul.nav-menu .focus > ul,
     display: none;
   }
   .main-navigation {
-    z-index: 2;
     position: absolute;
+    z-index: 5;
   }
   .navbar {
     top: -51px;
     left: 28px;
+  }
+  .menu-main-container {
+    background: #f6f6f6;
+    -webkit-box-shadow: 10px 9px 5px -5px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 10px 9px 5px -5px rgba(0, 0, 0, 0.37);
+    box-shadow: 10px 9px 5px -5px rgba(0, 0, 0, 0.37);
+  }
+  .menu-item {
+    font-size: 18px;
+    margin: 6px 0;
   }
   .toggled-on .menu-toggle:after {
     vertical-align: 2px;
