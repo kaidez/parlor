@@ -45,20 +45,20 @@ a:hover {
   /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px), only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 320px), only screen and (min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min-resolution: 192dpi) and (min-width: 320px), only screen and (min-resolution: 2dppx) and (min-width: 320px) {
-  /* Small screen, retina, stuff to override above media query */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  /* Hand-held screen, non-retina */
   .site-title {
-    background: url(/wp-/wp-content/themes/parlor/images/logo@2x.png) no-repeat;
+    background: url(/wp/wp-content/themes/parlor/images/logo.png) no-repeat;
     background-size: 200px 41px;
     width: 200px;
     height: 41px;
     text-indent: -999px;
   }
 }
-@media only screen and (min-width: 320px) {
-  /* Medium screen, non-retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 320px) and (max-width: 767px), only screen and (min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), only screen and (min-resolution: 192dpi) and (min-width: 320px) and (max-width: 767px), only screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px) {
+  /* Hand-held screen, retina */
   .site-title {
-    background: url(/wp/wp-content/themes/parlor/images/logo.png) no-repeat;
+    background: url(/wp/wp-content/themes/parlor/images/logo@2x.png) no-repeat;
     background-size: 200px 41px;
     width: 200px;
     height: 41px;
@@ -311,9 +311,10 @@ ul.nav-menu .focus > ul,
     max-width: 900px;
   }
   .site-footer {
+    position: relative;
+    height: 30px;
     background: #ababab;
     color: #363030;
-    height: 30px;
   }
   .navbar {
     max-width: 600px;
