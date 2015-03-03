@@ -1,8 +1,8 @@
 .logo {
   text-indent: -999px;
-  background-size: 270px 56px;
-  width: 270px;
-  height: 56px;
+  background-size: 200px 41px;
+  width: 200px;
+  height: 41px;
 }
 /*
 * HELPER CLASSES
@@ -31,6 +31,9 @@ a:focus,
 a:hover {
   color: #696767;
 }
+.row {
+  font-size: 18px;
+}
 .says,
 .screen-reader-text,
 .site-description {
@@ -44,9 +47,9 @@ a:hover {
   .site-title {
     background: url(/wp-/wp-content/themes/parlor/images/logo@2x.png) no-repeat;
     text-indent: -999px;
-    background-size: 270px 56px;
-    width: 270px;
-    height: 56px;
+    background-size: 200px 41px;
+    width: 200px;
+    height: 41px;
   }
 }
 @media only screen and (min-width: 320px) {
@@ -54,9 +57,9 @@ a:hover {
   .site-title {
     background: url(/wp/wp-content/themes/parlor/images/logo.png) no-repeat;
     text-indent: -999px;
-    background-size: 270px 56px;
-    width: 270px;
-    height: 56px;
+    background-size: 200px 41px;
+    width: 200px;
+    height: 41px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -64,9 +67,9 @@ a:hover {
   .site-title {
     background: url(/wp/wp-content/themes/parlor/images/logo.png) no-repeat;
     text-indent: -999px;
-    background-size: 270px 56px;
-    width: 270px;
-    height: 56px;
+    background-size: 200px 41px;
+    width: 200px;
+    height: 41px;
   }
   .menu-item::before {
     content: url(/wp//wp-content/themes/parlor/images/nav-bullet.png);
@@ -77,9 +80,9 @@ a:hover {
   .site-title {
     background: url(/wp/wp-content/themes/parlor/images/logo@2x.png) no-repeat;
     text-indent: -999px;
-    background-size: 270px 56px;
-    width: 270px;
-    height: 56px;
+    background-size: 200px 41px;
+    width: 200px;
+    height: 41px;
   }
   .menu-item::before {
     content: url(/wp/wp-content/themes/parlor/images/nav-bullet@2x.png);
@@ -91,9 +94,9 @@ a:hover {
   .site-title {
     background: url(/wp/wp-content/themes/parlor/images/logo.png) no-repeat;
     text-indent: -999px;
-    background-size: 270px 56px;
-    width: 270px;
-    height: 56px;
+    background-size: 200px 41px;
+    width: 200px;
+    height: 41px;
   }
   .menu-item::before {
     content: url(/wp/wp-content/themes/parlor/images/nav-bullet.png);
@@ -105,9 +108,9 @@ a:hover {
   .site-title {
     background: url(/wp/wp-content/themes/parlor/images/logo@2x.png) no-repeat;
     text-indent: -999px;
-    background-size: 270px 56px;
-    width: 270px;
-    height: 56px;
+    background-size: 200px 41px;
+    width: 200px;
+    height: 41px;
   }
   .menu-item::before {
     content: url(/wp/wp-content/themes/parlor/images/nav-bullet@2x.png);
@@ -123,7 +126,6 @@ body,
 }
 body {
   font-family: 'Quicksand', sans-serif;
-  font-size: 16px;
 }
 .home .entry-title {
   text-indent: -999px;
@@ -230,12 +232,15 @@ ul.nav-menu .focus > ul,
   width: inherit;
 }
 /*
-* =====================================================================
-* End main navigation styling
-* =====================================================================
-*/
+ * =====================================================================
+ * End main navigation styling
+ * =====================================================================
+ */
 .homepage-top-row {
   margin-bottom: 20px;
+}
+.row-inner-element {
+  width: 300px;
 }
 @media (min-width: 768px) {
   .site {
@@ -389,6 +394,6 @@ ul.nav-menu .focus > ul,
     vertical-align: top;
   }
 }
-.frs-slideshow-container#home-pagepjc {
+.frs-slideshow-container {
   margin: 0 !important;
 }
