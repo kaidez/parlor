@@ -1472,7 +1472,7 @@ div.nav-menu>ul,ul.nav-menu{margin:0}
 div.nav-menu>ul,ul.nav-menu{display:none}
 .main-navigation{position:absolute;z-index:5}
 .navbar{top:-51px;left:28px}
-.menu-main-container{background:#f6f6f6;box-shadow:10px 9px 5px -5px rgba(0,0,0,.37)}
+.menu-main-container{background:#f6f6f6;padding:12px;box-shadow:10px 9px 5px -5px rgba(0,0,0,.37)}
 .menu-item{font-size:18px;margin:6px 0}
 .toggled-on .menu-toggle:after{vertical-align:2px}
 .toggled-on .nav-menu,.toggled-on .nav-menu>ul{display:block;margin-left:0;padding:0;width:100%}
