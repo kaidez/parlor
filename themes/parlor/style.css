@@ -1443,8 +1443,9 @@ div.nav-menu>ul,ul.nav-menu{margin:0}
 .nav-menu ul ul a,ul.nav-menu ul a{margin:0;width:200px;color:#fff}
 .nav-menu ul ul a:focus,.nav-menu ul ul a:hover,ul.nav-menu ul a:focus,ul.nav-menu ul a:hover{background-color:#db572f}
 .nav-menu .focus>ul,.nav-menu ul li:hover>ul,ul.nav-menu .focus>ul,ul.nav-menu li:hover>ul{clip:inherit;overflow:inherit;height:inherit;width:inherit}
-.homepage-top-row{margin-bottom:20px}
-.row-inner-element{width:300px}
+.homepage-top-row{margin-bottom:70px}
+.row-inner-element{margin:0 auto;width:300px}
+.art-exhibits-header{font-size:40px}
 @media (min-width:768px){.site{margin:0 auto}
 .menu-toggle{display:none}
 .contact-information{background-color:#363030;color:#fff;text-align:center;padding:2px 0}
@@ -1453,14 +1454,16 @@ div.nav-menu>ul,ul.nav-menu{margin:0}
 .phone-number{float:left}
 .hours{float:right}
 .navbar{max-width:600px;display:inline-block;left:47px}
-.home-page-info{padding-top:30px}}
+.home-page-info{padding-top:30px}
+.row-inner-element{margin:0}}
 @media (min-width:992px) and (max-width:1199px){.site-header{max-width:818px}
 .col-md-6{width:300px;display:inline-block;vertical-align:top}}
 @media (min-width:1200px){.page{width:auto;margin:0 auto}
 .site-header{max-width:900px}
 .site-footer{background:#ababab;color:#363030;height:30px}
 .navbar{max-width:600px;display:inline-block;left:47px}}
-@media (max-width:767px){.site-header{text-align:center}
+@media (max-width:767px){.home .site-main{min-height:1200px}
+.site-header{text-align:center}
 .contact-information{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
 .hamburger-menu{display:block;width:25px;height:4px;margin:5px 0;background:#000}
 div.nav-menu>ul,ul.nav-menu{display:none}

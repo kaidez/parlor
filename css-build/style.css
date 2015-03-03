@@ -237,10 +237,14 @@ ul.nav-menu .focus > ul,
  * =====================================================================
  */
 .homepage-top-row {
-  margin-bottom: 20px;
+  margin-bottom: 70px;
 }
 .row-inner-element {
+  margin: 0 auto;
   width: 300px;
+}
+.art-exhibits-header {
+  font-size: 40px;
 }
 @media (min-width: 768px) {
   .site {
@@ -278,6 +282,9 @@ ul.nav-menu .focus > ul,
   .home-page-info {
     padding-top: 30px;
   }
+  .row-inner-element {
+    margin: 0;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .site-header {
@@ -309,6 +316,9 @@ ul.nav-menu .focus > ul,
   }
 }
 @media (max-width: 767px) {
+  .home .site-main {
+    min-height: 1200px;
+  }
   .site-header {
     text-align: center;
   }
