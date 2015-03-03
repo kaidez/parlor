@@ -1,22 +1,25 @@
 .logo {
-  text-indent: -999px;
   background-size: 200px 41px;
   width: 200px;
   height: 41px;
+  text-indent: -999px;
+}
+.col-md-6-mixin {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
 }
 /*
-* HELPER CLASSES
-*/
+ * HELPER CLASSES
+ */
 .hide-element {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
   /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-.col-md-6-mixin {
-  width: 300px;
-  display: inline-block;
-  vertical-align: top;
+.ti {
+  text-indent: -999px;
 }
 /*
  * BOOTSTRAP OVERRIDES
@@ -46,30 +49,30 @@ a:hover {
   /* Small screen, retina, stuff to override above media query */
   .site-title {
     background: url(/wp-/wp-content/themes/parlor/images/logo@2x.png) no-repeat;
-    text-indent: -999px;
     background-size: 200px 41px;
     width: 200px;
     height: 41px;
+    text-indent: -999px;
   }
 }
 @media only screen and (min-width: 320px) {
   /* Medium screen, non-retina */
   .site-title {
     background: url(/wp/wp-content/themes/parlor/images/logo.png) no-repeat;
-    text-indent: -999px;
     background-size: 200px 41px;
     width: 200px;
     height: 41px;
+    text-indent: -999px;
   }
 }
 @media only screen and (min-width: 768px) {
   /* Medium screen, non-retina */
   .site-title {
     background: url(/wp/wp-content/themes/parlor/images/logo.png) no-repeat;
-    text-indent: -999px;
     background-size: 200px 41px;
     width: 200px;
     height: 41px;
+    text-indent: -999px;
   }
   .menu-item::before {
     content: url(/wp//wp-content/themes/parlor/images/nav-bullet.png);
@@ -79,10 +82,10 @@ a:hover {
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 768px), only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 768px), only screen and (min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-resolution: 192dpi) and (min-width: 768px), only screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .site-title {
     background: url(/wp/wp-content/themes/parlor/images/logo@2x.png) no-repeat;
-    text-indent: -999px;
     background-size: 200px 41px;
     width: 200px;
     height: 41px;
+    text-indent: -999px;
   }
   .menu-item::before {
     content: url(/wp/wp-content/themes/parlor/images/nav-bullet@2x.png);
@@ -93,10 +96,10 @@ a:hover {
   /* Large screen, non-retina */
   .site-title {
     background: url(/wp/wp-content/themes/parlor/images/logo.png) no-repeat;
-    text-indent: -999px;
     background-size: 200px 41px;
     width: 200px;
     height: 41px;
+    text-indent: -999px;
   }
   .menu-item::before {
     content: url(/wp/wp-content/themes/parlor/images/nav-bullet.png);
@@ -107,10 +110,10 @@ a:hover {
   /* Large screen, retina, stuff to override above media query */
   .site-title {
     background: url(/wp/wp-content/themes/parlor/images/logo@2x.png) no-repeat;
-    text-indent: -999px;
     background-size: 200px 41px;
     width: 200px;
     height: 41px;
+    text-indent: -999px;
   }
   .menu-item::before {
     content: url(/wp/wp-content/themes/parlor/images/nav-bullet@2x.png);
@@ -245,6 +248,9 @@ ul.nav-menu .focus > ul,
 }
 .art-exhibits-header {
   font-size: 40px;
+}
+.site-footer-inner {
+  margin: 0 20px;
 }
 @media (min-width: 768px) {
   .site {

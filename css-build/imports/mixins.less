@@ -1,14 +1,21 @@
 // Logo mixin...this the only image on the site
 .logo {
-  text-indent: -999px;
   background-size: 200px 41px;
   width: 200px;
   height: 41px;
+  .ti();
+}
+
+
+.col-md-6-mixin {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 /*
-* HELPER CLASSES
-*/
+ * HELPER CLASSES
+ */
 
 // Use the old school Yahoo trick for hiding page elements
 // Read more at: http://yhoo.it/1vz3NVW
@@ -19,8 +26,8 @@
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-.col-md-6-mixin {
-  width: 300px;
-  display: inline-block;
-  vertical-align: top;
+
+// Off-screen text-indent
+.ti {
+  text-indent: -999px;
 }
