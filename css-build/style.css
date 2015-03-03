@@ -395,7 +395,6 @@ ul.nav-menu .focus > ul,
   }
   .menu-main-container {
     background: #f6f6f6;
-    padding: 12px;
     -webkit-box-shadow: 10px 9px 5px -5px rgba(0, 0, 0, 0.37);
     -moz-box-shadow: 10px 9px 5px -5px rgba(0, 0, 0, 0.37);
     box-shadow: 10px 9px 5px -5px rgba(0, 0, 0, 0.37);
@@ -411,7 +410,7 @@ ul.nav-menu .focus > ul,
   .toggled-on .nav-menu > ul {
     display: block;
     margin-left: 0;
-    padding: 0;
+    padding: 12px;
     width: 100%;
   }
   .toggled-on li,
