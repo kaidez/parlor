@@ -11,7 +11,7 @@
   position: absolute;
   text-indent: -999px;
 }
-.col-md-6-mixin {
+.col-xs-6-mixin {
   width: 300px;
   display: inline-block;
   vertical-align: top;
@@ -58,6 +58,7 @@ a:hover {
 }
 .row {
   font-size: 18px;
+  margin: 0 auto;
 }
 .says,
 .screen-reader-text,
@@ -288,7 +289,7 @@ ul.nav-menu .focus > ul,
 * End main navigation styling
 * =====================================================================
 */
-.homepage-top-row {
+.homepage-row {
   margin: 0 auto 70px;
   max-width: 700px;
 }
@@ -347,7 +348,7 @@ ul.nav-menu .focus > ul,
   .site-header {
     max-width: 818px;
   }
-  .col-md-6 {
+  .col-xs-6 {
     width: 300px;
     display: inline-block;
     vertical-align: top;
@@ -482,7 +483,7 @@ ul.nav-menu .focus > ul,
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-md-6 {
+  .col-xs-6 {
     width: 300px;
     display: inline-block;
     vertical-align: top;
