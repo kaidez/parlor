@@ -66,16 +66,21 @@ gulp.task("buildcss", ['lint','less'],function () {
 
 /*
  *  ===================================================================
- *  | CSS LINT ASK |
+ *  | CSS LINT TASK |
  *
  *  Lint "css-build/style.css' ONLY!!!
  *  ===================================================================
  */
-gulp.task('lint', function() {
-  gulp.src('css-build/style.css')
-    .pipe(csslint())
-    .pipe(csslint.reporter());
-});
+ gulp.task('lint', function() {
+   gulp.src('css-build/style.css')
+   .pipe(csslint({
+     "important": false,
+     "duplicate-background-images": false,
+     "ids": false,
+     "text-indent": false
+   }))
+   .pipe(csslint.reporter());
+ });
 
 /*
  *  ===================================================================
