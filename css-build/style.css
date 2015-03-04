@@ -174,9 +174,6 @@ body {
 .home .entry-title {
   text-indent: -999px;
 }
-.home .site-main {
-  min-height: 1200px;
-}
 .site-title {
   text-align: left;
 }
@@ -295,7 +292,7 @@ ul.nav-menu .focus > ul,
 }
 .row-inner-element {
   margin: 0 auto;
-  width: 300px;
+  max-width: 277px;
 }
 .art-exhibits-header {
   font-size: 40px;
@@ -370,6 +367,9 @@ ul.nav-menu .focus > ul,
   .site-header {
     max-width: 900px;
     padding: 0 40px;
+  }
+  .home .site-main {
+    min-height: 800px;
   }
   .site-footer {
     position: relative;
@@ -476,6 +476,9 @@ ul.nav-menu .focus > ul,
     min-width: 320px;
     margin: 0 auto;
   }
+  .home .site-main {
+    min-height: 1249px;
+  }
   .home-page-info {
     padding: 0 0 30px;
   }
@@ -492,6 +495,7 @@ ul.nav-menu .focus > ul,
     vertical-align: top;
   }
 }
-/* .frs-slideshow-container {
-  margin: 0 !important;
-} */
+.frs-slideshow-container {
+  margin: 0 auto !important;
+  max-width: 277px !important;
+}
