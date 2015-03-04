@@ -4,14 +4,26 @@ html, body, .site, .site-main {
 	min-height:100%;
 }
 
+.site {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
 // Globally style all the site text
 body {
+	max-width: 100%;
 	font-family: 'Quicksand', sans-serif;
 }
 
 // Globally hide the home poge's content title
 .home .entry-title {
-  .ti();
+	.ti();
+}
+
+
+// Force the height of the home page on handhelds
+.home .site-main {
+	min-height: 1200px;
 }
 
 // Move the main h1/logo to the left
@@ -24,6 +36,10 @@ body {
 	margin: 0 auto;
 }
 
+// Remove extra bottom padding from the navbar
+.navbar{
+	margin-bottom: 0;
+}
 // Style the footer
 .site-footer {
 	height: 20px;
@@ -149,14 +165,15 @@ ul.nav-menu .focus > ul,
 }
 
 /*
- * =====================================================================
- * End main navigation styling
- * =====================================================================
- */
+* =====================================================================
+* End main navigation styling
+* =====================================================================
+*/
 
 // Space out the two rows on the home page
 .homepage-top-row {
-	margin-bottom: 70px;
+	margin: 0 auto 70px;
+  max-width: 700px;
 }
 
 // Set some elements in Bootstrap's "row" class to be 300px and centered

@@ -1,8 +1,8 @@
 @media (max-width: 767px) {
 
-  // Force the height of the home page on handhelds
-  .home .site-main {
-    min-height: 900px;
+  // Add space between the home page link & hamburger menu on handhelds
+  .home-link {
+    margin-left: 30px;
   }
 
   // On handhelds, center the logo
@@ -48,7 +48,8 @@
   // Add a background color to the mobile drop-down menu
   .menu-main-container {
     // Style
-    background: rgba(246, 246, 246, 1);
+    background: rgba(79, 75, 75, 1);
+    color: rgba(255, 255, 255, 1);
     -webkit-box-shadow: 10px 9px 5px -5px rgba(0,0,0,0.37);
     -moz-box-shadow: 10px 9px 5px -5px rgba(0,0,0,0.37);
     box-shadow: 10px 9px 5px -5px rgba(0,0,0,0.37);
@@ -56,8 +57,18 @@
 
 
   .menu-item {
-    font-size: 18px;
+    font-size: 22px;
     margin: 6px 0;
+  }
+
+  .menu-item a {
+    color: rgba(255,255,255,1);
+    &:visited {
+      color: rgba(255,255,255,1);
+    }
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   // "toggled-on" classess are related to the drop-down menu
@@ -90,14 +101,14 @@
   }
 
   .toggled-on .nav-menu li > ul a {
-    color: #141412;
+    color: rgba(255,255,255,1);
     width: auto;
   }
 
   .toggled-on .nav-menu li:hover > a,
   .toggled-on .nav-menu .children a {
     background-color: transparent;
-    color: #141412;
+    color: rgba(255,255,255,1);
   }
 
   .toggled-on .nav-menu > li a:hover,
@@ -114,13 +125,20 @@
 
   // Center the page content on handheld views
   .entry-content {
-    max-width: 300px;
+    min-width: 320px;
     margin: 0 auto;
   }
 
-  // Padding the bottom of the intro copy on the home page
+  // Pad the bottom of the intro copy on the home page
   .home-page-info {
     padding: 0 0 30px;
+  }
+
+  // The footer's height needs to be taller on the handheld view
+  .site-footer {
+    height: 42px;
+    min-width: 320px;
+    width: 100%;
   }
 
 }
