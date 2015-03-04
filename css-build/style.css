@@ -9,7 +9,6 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  text-indent: -999px;
 }
 .col-xs-6-mixin {
   width: 300px;
@@ -107,7 +106,6 @@ a:hover {
     width: 20px;
     height: 20px;
     position: absolute;
-    text-indent: -999px;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 768px), only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 768px), only screen and (min-device-pixel-ratio: 2) and (min-width: 768px), only screen and (min-resolution: 192dpi) and (min-width: 768px), only screen and (min-resolution: 2dppx) and (min-width: 768px) {
@@ -124,7 +122,6 @@ a:hover {
     width: 20px;
     height: 20px;
     position: absolute;
-    text-indent: -999px;
   }
   .menu-item::before {
     content: url(/wp/wp-content/themes/parlor/images/nav-bullet@2x.png);
@@ -192,6 +189,9 @@ body {
 .site-footer {
   height: 20px;
   background-color: #ababab;
+}
+.site-footer-inner {
+  margin: 0 20px;
 }
 .home-link {
   display: inline-block;
@@ -300,8 +300,11 @@ ul.nav-menu .focus > ul,
 .art-exhibits-header {
   font-size: 40px;
 }
-.site-footer-inner {
-  margin: 0 20px;
+.facebook-link-text {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
 }
 @media (min-width: 768px) {
   .site {

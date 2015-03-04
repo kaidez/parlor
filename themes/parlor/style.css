@@ -20,7 +20,7 @@ body,figure{margin:0}
 a:focus,input[type=file]:focus,input[type=checkbox]:focus,input[type=radio]:focus{outline:dotted thin;outline:-webkit-focus-ring-color auto 5px;outline-offset:-2px}
 .popover>.arrow,.popover>.arrow:after,.tooltip-arrow{width:0;height:0;border-color:transparent;border-style:solid}
 .breadcrumb,.dropdown-menu,.list-inline,.list-unstyled,.media-list,.nav,.pager{list-style:none}
-.facebook-image,.home .entry-title,.logo,.ti{text-indent:-999px}
+.home .entry-title,.logo,.ti{text-indent:-999px}
 html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;font-size:10px;-webkit-tap-highlight-color:transparent}
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
 audio,canvas,progress,video{display:inline-block;vertical-align:baseline}
@@ -1421,9 +1421,9 @@ a,a:focus,a:hover{color:#696767}
 @media only screen and (-webkit-min-device-pixel-ratio:2)and (min-width:320px)and (max-width:767px),only screen and (min-device-pixel-ratio:2)and (min-width:320px)and (max-width:767px),only screen and (min-resolution:192dpi)and (min-width:320px)and (max-width:767px),only screen and (min-resolution:2dppx)and (min-width:320px)and (max-width:767px){.site-title{background:url(/wp/wp-content/themes/parlor/images/logo@2x.png)no-repeat;background-size:200px 41px;width:200px;height:41px;text-indent:-999px}}
 @media only screen and (min-width:768px){.site-title{background:url(/wp/wp-content/themes/parlor/images/logo.png)no-repeat;background-size:200px 41px;width:200px;height:41px;text-indent:-999px}
 .menu-item::before{content:url(/wp/wp-content/themes/parlor/images/nav-bullet.png);margin-right:5px}
-.facebook-link{background:url(/wp/wp-content/themes/parlor/images/facebook-image.png)no-repeat;background-size:20px 20px;width:20px;height:20px;position:absolute;text-indent:-999px}}
+.facebook-link{background:url(/wp/wp-content/themes/parlor/images/facebook-image.png)no-repeat;background-size:20px 20px;width:20px;height:20px;position:absolute}}
 @media only screen and (-webkit-min-device-pixel-ratio:2)and (min-width:768px),only screen and (min-device-pixel-ratio:2)and (min-width:768px),only screen and (min-resolution:192dpi)and (min-width:768px),only screen and (min-resolution:2dppx)and (min-width:768px){.site-title{background:url(/wp/wp-content/themes/parlor/images/logo@2x.png)no-repeat;background-size:200px 41px;width:200px;height:41px;text-indent:-999px}
-.facebook-link{background:url(/wp/wp-content/themes/parlor/images/facebook-image@2x.png)no-repeat;background-size:20px 20px;width:20px;height:20px;position:absolute;text-indent:-999px}
+.facebook-link{background:url(/wp/wp-content/themes/parlor/images/facebook-image@2x.png)no-repeat;background-size:20px 20px;width:20px;height:20px;position:absolute}
 .menu-item::before{content:url(/wp/wp-content/themes/parlor/images/nav-bullet@2x.png);margin-right:5px}}
 @media only screen and (min-width:1300px){.site-title{background:url(/wp/wp-content/themes/parlor/images/logo.png)no-repeat;background-size:200px 41px;width:200px;height:41px;text-indent:-999px}
 .menu-item::before{content:url(/wp/wp-content/themes/parlor/images/nav-bullet.png);margin-right:5px}}
@@ -1436,6 +1436,7 @@ body{font-family:Quicksand,sans-serif}
 .site-header{margin:0 auto}
 .navbar{margin-bottom:0}
 .site-footer{height:20px;background-color:#ababab}
+.site-footer-inner{margin:0 20px}
 .menu-item{list-style-type:none;margin-right:7px}
 .main-navigation-header{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
 .main-navigation{clear:both;margin:0 auto;max-width:1080px;position:relative}
@@ -1452,7 +1453,7 @@ div.nav-menu>ul,ul.nav-menu{margin:0}
 .homepage-row{margin:0 auto 70px;max-width:700px}
 .row-inner-element{margin:0 auto;width:300px}
 .art-exhibits-header{font-size:40px}
-.site-footer-inner{margin:0 20px}
+.facebook-link-text{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
 @media (min-width:768px){.site{margin:0 auto}
 .menu-toggle{display:none}
 .contact-information-element,.navbar{display:inline-block}
