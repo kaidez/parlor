@@ -10,7 +10,7 @@
   height: 20px;
   position: absolute;
 }
-.col-xs-6-mixin {
+.col-md-6-mixin {
   width: 300px;
   display: inline-block;
   vertical-align: top;
@@ -351,7 +351,7 @@ ul.nav-menu .focus > ul,
   .site-header {
     max-width: 818px;
   }
-  .col-xs-6 {
+  .col-md-6 {
     width: 300px;
     display: inline-block;
     vertical-align: top;
@@ -486,12 +486,12 @@ ul.nav-menu .focus > ul,
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-xs-6 {
+  .col-md-6 {
     width: 300px;
     display: inline-block;
     vertical-align: top;
   }
 }
-.frs-slideshow-container {
+/* .frs-slideshow-container {
   margin: 0 !important;
-}
+} */
