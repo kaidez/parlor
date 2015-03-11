@@ -1408,12 +1408,12 @@ td.visible-print,th.visible-print{display:table-cell!important}}
 .logo{background-size:200px 41px;width:200px;height:41px}
 .facebook-image{background-size:20px 20px;width:20px;height:20px;position:absolute}
 .col-md-6-mixin{width:300px;vertical-align:top}
+.hide-element{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
 .z1{z-index:1}
 .z2{z-index:2}
 .z3{z-index:3}
 .z4{z-index:4}
 .z5{z-index:5}
-.hide-element{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
 a,a:focus,a:hover{color:#696767}
 .row{font-size:18px;margin:0 auto}
 .says,.screen-reader-text,.site-description{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}

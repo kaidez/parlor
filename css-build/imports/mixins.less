@@ -22,6 +22,25 @@
 }
 
 
+/*
+ * HELPER CLASSES
+ */
+
+// Use the old school Yahoo trick for hiding page elements
+// Read more at: http://yhoo.it/1vz3NVW
+.hide-element {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+// Off-screen text-indent
+.ti {
+  text-indent: -999px;
+}
+
 // z-index mixins
 // 5 or less should be fine, but plugin code may mean more are required
 // WordPress can also get crazy with z-indexes (e.g. "z-index: 9999")
@@ -44,21 +63,7 @@
 .z5 {
   z-index: 5;
 }
+
 /*
- * HELPER CLASSES
+ * HELPER CLASSES END
  */
-
-// Use the old school Yahoo trick for hiding page elements
-// Read more at: http://yhoo.it/1vz3NVW
-.hide-element {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-}
-
-
-// Off-screen text-indent
-.ti {
-  text-indent: -999px;
-}

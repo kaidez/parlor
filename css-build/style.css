@@ -15,6 +15,18 @@
   display: inline-block;
   vertical-align: top;
 }
+/*
+ * HELPER CLASSES
+ */
+.hide-element {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+.ti {
+  text-indent: -999px;
+}
 .z1 {
   z-index: 1;
 }
@@ -31,17 +43,8 @@
   z-index: 5;
 }
 /*
- * HELPER CLASSES
+ * HELPER CLASSES END
  */
-.hide-element {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-}
-.ti {
-  text-indent: -999px;
-}
 /*
  * BOOTSTRAP OVERRIDES
  * ====================================================================
