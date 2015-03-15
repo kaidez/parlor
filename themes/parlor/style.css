@@ -1351,7 +1351,6 @@ button.close{-webkit-appearance:none;padding:0;cursor:pointer;background:0 0;bor
 .btn-group-vertical>.btn-group:after,.btn-group-vertical>.btn-group:before,.btn-toolbar:after,.btn-toolbar:before,.clearfix:after,.clearfix:before,.container-fluid:after,.container-fluid:before,.container:after,.container:before,.dl-horizontal dd:after,.dl-horizontal dd:before,.form-horizontal .form-group:after,.form-horizontal .form-group:before,.modal-footer:after,.modal-footer:before,.nav:after,.nav:before,.navbar-collapse:after,.navbar-collapse:before,.navbar-header:after,.navbar-header:before,.navbar:after,.navbar:before,.pager:after,.pager:before,.panel-body:after,.panel-body:before,.row:after,.row:before{display:table;content:" "}
 .btn-group-vertical>.btn-group:after,.btn-toolbar:after,.clearfix:after,.container-fluid:after,.container:after,.dl-horizontal dd:after,.form-horizontal .form-group:after,.modal-footer:after,.nav:after,.navbar-collapse:after,.navbar-header:after,.navbar:after,.pager:after,.panel-body:after,.row:after{clear:both}
 .center-block{display:block;margin-right:auto;margin-left:auto}
-.center,.row{margin:0 auto}
 .pull-right{float:right!important}
 .pull-left{float:left!important}
 .hide{display:none!important}
@@ -1412,12 +1411,15 @@ td.visible-print,th.visible-print{display:table-cell!important}}
 .facebook-image{background-size:20px 20px;width:20px;height:20px;position:absolute}
 .col-md-6-mixin{width:300px;vertical-align:top}
 .hide-element{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
+.center{margin:0 auto}
 .z1{z-index:1}
 .z2{z-index:2}
 .z3{z-index:3}
 .z4{z-index:4}
 .z5{z-index:5}
+.bootstrap-row-margins{margin:0 auto 70px}
 a,a:focus,a:hover{color:#696767}
+.row{margin:0 auto}
 .col-md-6{padding-right:0;padding-left:0;max-width:320px}
 .says,.screen-reader-text,.site-description{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
 .entry-title{max-width:330px;border-bottom:1px solid #4c4b4b}
@@ -1453,9 +1455,10 @@ div.nav-menu>ul,ul.nav-menu{margin:0}
 .nav-menu .children,.nav-menu .sub-menu{border-top:0;padding:0;position:absolute;left:-2px;z-index:99999;height:1px;width:1px;overflow:hidden;clip:rect(1px,1px,1px,1px);background-color:#220e10}
 .nav-menu .children ul,.nav-menu .sub-menu ul{border-left:0;left:100%;top:0}
 .nav-menu ul ul a,ul.nav-menu ul a{margin:0;width:200px;color:#fff}
+.content-row,.homepage-row{margin:0 auto 70px}
 .nav-menu ul ul a:focus,.nav-menu ul ul a:hover,ul.nav-menu ul a:focus,ul.nav-menu ul a:hover{background-color:#db572f}
 .nav-menu .focus>ul,.nav-menu ul li:hover>ul,ul.nav-menu .focus>ul,ul.nav-menu li:hover>ul{clip:inherit;overflow:inherit;height:inherit;width:inherit}
-.homepage-row{margin:0 auto 70px;max-width:700px}
+.homepage-row{max-width:700px}
 .row-inner-element{margin:0 auto;max-width:277px}
 .art-exhibits-header{font-size:40px}
 .facebook-link-text{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
@@ -1470,7 +1473,7 @@ a:hover,a:visited{color:#25b8c0;text-decoration:none}
 .contact-information-inner,.site-content,.site-footer-inner{max-width:900px;margin:0 auto}
 .phone-number{float:left}
 .hours,.sitemap-link{float:right}
-.navbar{max-width:600px;left:47px}
+.navbar{max-width:600px;left:28px}
 .home-page-info{padding-top:30px}
 .row-inner-element{margin:0}}
 @media (min-width:992px)and (max-width:1199px){.site-header{max-width:818px}
