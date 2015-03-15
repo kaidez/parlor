@@ -17,7 +17,6 @@ Template: twentythirteen
  */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 body,figure{margin:0}
-a:focus,input[type=file]:focus,input[type=checkbox]:focus,input[type=radio]:focus{outline:dotted thin;outline:-webkit-focus-ring-color auto 5px;outline-offset:-2px}
 .popover>.arrow,.popover>.arrow:after,.tooltip-arrow{width:0;height:0;border-color:transparent;border-style:solid}
 .breadcrumb,.dropdown-menu,.list-inline,.list-unstyled,.media-list,.nav,.pager{list-style:none}
 .home .entry-title,.logo,.ti{text-indent:-999px}
@@ -335,8 +334,8 @@ select{background:#fff!important}
 *,:after,:before{box-sizing:border-box}
 body{font-size:14px;line-height:1.42857143;color:#333}
 button,input,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}
-a{text-decoration:none}
-a:focus,a:hover{text-decoration:underline}
+a:focus,a:hover{color:#23527c;text-decoration:underline}
+a:focus{outline:dotted thin;outline:-webkit-focus-ring-color auto 5px;outline-offset:-2px}
 .carousel-inner>.item>a>img,.carousel-inner>.item>img,.img-responsive,.thumbnail a>img,.thumbnail>img{display:block;max-width:100%;height:auto}
 .img-rounded{border-radius:6px}
 .img-thumbnail{display:inline-block;max-width:100%;height:auto;padding:4px;line-height:1.42857143;border:1px solid #ddd;border-radius:4px;transition:all .2s ease-in-out}
@@ -685,6 +684,7 @@ input[type=checkbox],input[type=radio]{margin:4px 0 0;line-height:normal}
 .form-control,output{line-height:1.42857143}
 input[type=range]{display:block;width:100%}
 select[multiple],select[size]{height:auto}
+input[type=file]:focus,input[type=checkbox]:focus,input[type=radio]:focus{outline:dotted thin;outline:-webkit-focus-ring-color auto 5px;outline-offset:-2px}
 output{padding-top:7px}
 .form-control{width:100%;height:34px;padding:6px 12px;background-color:#fff;border:1px solid #ccc;border-radius:4px;box-shadow:inset 0 1px 1px rgba(0,0,0,.075);transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}
 .form-group-sm .form-control,.input-sm{padding:5px 10px;font-size:12px;border-radius:3px}
@@ -814,8 +814,9 @@ tbody.collapse.in{display:table-row-group}
 .input-group-addon:last-child,.panel>.table-bordered>tbody>tr>td:first-child,.panel>.table-bordered>tbody>tr>th:first-child,.panel>.table-bordered>tfoot>tr>td:first-child,.panel>.table-bordered>tfoot>tr>th:first-child,.panel>.table-bordered>thead>tr>td:first-child,.panel>.table-bordered>thead>tr>th:first-child,.panel>.table-responsive>.table-bordered>tbody>tr>td:first-child,.panel>.table-responsive>.table-bordered>tbody>tr>th:first-child,.panel>.table-responsive>.table-bordered>tfoot>tr>td:first-child,.panel>.table-responsive>.table-bordered>tfoot>tr>th:first-child,.panel>.table-responsive>.table-bordered>thead>tr>td:first-child,.panel>.table-responsive>.table-bordered>thead>tr>th:first-child{border-left:0}
 .input-group-addon:first-child,.panel>.table-bordered>tbody>tr>td:last-child,.panel>.table-bordered>tbody>tr>th:last-child,.panel>.table-bordered>tfoot>tr>td:last-child,.panel>.table-bordered>tfoot>tr>th:last-child,.panel>.table-bordered>thead>tr>td:last-child,.panel>.table-bordered>thead>tr>th:last-child,.panel>.table-responsive>.table-bordered>tbody>tr>td:last-child,.panel>.table-responsive>.table-bordered>tbody>tr>th:last-child,.panel>.table-responsive>.table-bordered>tfoot>tr>td:last-child,.panel>.table-responsive>.table-bordered>tfoot>tr>th:last-child,.panel>.table-responsive>.table-bordered>thead>tr>td:last-child,.panel>.table-responsive>.table-bordered>thead>tr>th:last-child{border-right:0}
 .dropdown-toggle:focus{outline:0}
-.dropdown-menu{position:absolute;top:100%;left:0;z-index:1000;display:none;min-width:160px;padding:5px 0;margin:2px 0 0;font-size:14px;text-align:left;background-color:#fff;background-clip:padding-box;border:1px solid #ccc;border:1px solid rgba(0,0,0,.15);border-radius:4px;box-shadow:0 6px 12px rgba(0,0,0,.175)}
+.dropdown-menu{position:absolute;top:100%;left:0;z-index:1000;display:none;min-width:160px;padding:5px 0;margin:2px 0 0;font-size:14px;text-align:left;background-color:#fff;background-clip:padding-box;border:1px solid rgba(0,0,0,.15);border-radius:4px;box-shadow:0 6px 12px rgba(0,0,0,.175)}
 .btn-group-vertical>.btn:not(:first-child):not(:last-child),.btn-group>.btn-group:not(:first-child):not(:last-child)>.btn,.btn-group>.btn:not(:first-child):not(:last-child):not(.dropdown-toggle){border-radius:0}
+.dropdown-menu,.input-group-addon,.popover{border:1px solid #ccc}
 .badge,.input-group-addon,.label,.nav-justified>li>a,.pager,.progress-bar{text-align:center}
 .dropdown-menu .divider{height:1px;margin:9px 0;overflow:hidden;background-color:#e5e5e5}
 .dropdown-menu>li>a{clear:both;font-weight:400;color:#333}
@@ -879,7 +880,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 .input-group .form-control,.input-group-addon,.input-group-btn{display:table-cell}
 .input-group .form-control:not(:first-child):not(:last-child),.input-group-addon:not(:first-child):not(:last-child),.input-group-btn:not(:first-child):not(:last-child){border-radius:0}
 .input-group-addon,.input-group-btn{width:1%;white-space:nowrap;vertical-align:middle}
-.input-group-addon{padding:6px 12px;font-size:14px;font-weight:400;line-height:1;color:#555;background-color:#eee;border:1px solid #ccc;border-radius:4px}
+.input-group-addon{padding:6px 12px;font-size:14px;font-weight:400;line-height:1;color:#555;background-color:#eee;border-radius:4px}
 .badge,.label{font-weight:700}
 .input-group-addon.input-sm{padding:5px 10px;font-size:12px;border-radius:3px}
 .input-group-addon.input-lg{padding:10px 16px;font-size:18px;border-radius:6px}
@@ -1250,13 +1251,13 @@ a.list-group-item-danger.active,a.list-group-item-danger.active:focus,a.list-gro
 .carousel-caption,.carousel-control{text-shadow:0 1px 2px rgba(0,0,0,.6)}
 .close:focus,.close:hover{color:#000;text-decoration:none;cursor:pointer;filter:alpha(opacity=50);opacity:.5}
 button.close{-webkit-appearance:none;padding:0;cursor:pointer;background:0 0;border:0}
-.modal-content,.popover{border:1px solid rgba(0,0,0,.2);background-clip:padding-box}
+.modal-content,.popover{background-clip:padding-box}
 .modal{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1040;display:none;-webkit-overflow-scrolling:touch;outline:0}
 .modal.fade .modal-dialog{transition:-webkit-transform .3s ease-out;transition:transform .3s ease-out;-webkit-transform:translate(0,-25%);transform:translate(0,-25%)}
 .modal.in .modal-dialog{-webkit-transform:translate(0,0);transform:translate(0,0)}
 .modal-open .modal{overflow-x:hidden;overflow-y:auto}
 .modal-dialog{position:relative;width:auto;margin:10px}
-.modal-content{position:relative;background-color:#fff;border:1px solid #999;border-radius:6px;outline:0;box-shadow:0 3px 9px rgba(0,0,0,.5)}
+.modal-content{position:relative;background-color:#fff;border:1px solid #999;border:1px solid rgba(0,0,0,.2);border-radius:6px;outline:0;box-shadow:0 3px 9px rgba(0,0,0,.5)}
 .modal-backdrop{position:absolute;top:0;right:0;left:0;background-color:#000}
 .modal-backdrop.fade{filter:alpha(opacity=0);opacity:0}
 .modal-backdrop.in{filter:alpha(opacity=50);opacity:.5}
@@ -1290,7 +1291,7 @@ button.close{-webkit-appearance:none;padding:0;cursor:pointer;background:0 0;bor
 .tooltip.bottom .tooltip-arrow{left:50%;margin-left:-5px}
 .tooltip.bottom-left .tooltip-arrow{right:5px;margin-top:-5px}
 .tooltip.bottom-right .tooltip-arrow{left:5px;margin-top:-5px}
-.popover{position:absolute;top:0;left:0;z-index:1060;display:none;max-width:276px;padding:1px;font-size:14px;font-weight:400;line-height:1.42857143;text-align:left;white-space:normal;background-color:#fff;border:1px solid #ccc;border-radius:6px;box-shadow:0 5px 10px rgba(0,0,0,.2)}
+.popover{position:absolute;top:0;left:0;z-index:1060;display:none;max-width:276px;padding:1px;font-size:14px;font-weight:400;line-height:1.42857143;text-align:left;white-space:normal;background-color:#fff;border:1px solid rgba(0,0,0,.2);border-radius:6px;box-shadow:0 5px 10px rgba(0,0,0,.2)}
 .site,body{max-width:100%}
 .popover.top{margin-top:-10px}
 .popover.right{margin-left:10px}
@@ -1453,6 +1454,8 @@ div.nav-menu>ul,ul.nav-menu{margin:0}
 .row-inner-element{margin:0 auto;max-width:277px}
 .art-exhibits-header{font-size:40px}
 .facebook-link-text{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
+a{color:#25b8c0;text-decoration:underline}
+a:hover,a:visited{color:#25b8c0;text-decoration:none}
 @media (min-width:768px){.site{margin:0 auto}
 .menu-toggle{display:none}
 .contact-information-element,.navbar{display:inline-block}

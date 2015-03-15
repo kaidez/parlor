@@ -285,10 +285,10 @@ ul.nav-menu .focus > ul,
   width: inherit;
 }
 /*
-* =====================================================================
-* End main navigation styling
-* =====================================================================
-*/
+ * =====================================================================
+ * End main navigation styling
+ * =====================================================================
+ */
 .homepage-row {
   margin: 0 auto 70px;
   max-width: 700px;
@@ -306,6 +306,28 @@ ul.nav-menu .focus > ul,
   /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
+/*
+ * =====================================================================
+ * Start content navigation styling
+ * =====================================================================
+ */
+a {
+  color: #25b8c0;
+  text-decoration: underline;
+}
+a:hover {
+  color: #25b8c0;
+  text-decoration: none;
+}
+a:visited {
+  color: #25b8c0;
+  text-decoration: none;
+}
+/*
+ * =====================================================================
+ * End content navigation styling
+ * =====================================================================
+ */
 @media (min-width: 768px) {
   .site {
     margin: 0 auto;
