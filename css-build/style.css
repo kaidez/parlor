@@ -183,8 +183,7 @@ html,
 body,
 .site,
 .site-main {
-  height: 100%;
-  min-height: 100%;
+  min-height: 900px;
 }
 .site {
   max-width: 100%;

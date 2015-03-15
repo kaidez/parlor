@@ -1435,7 +1435,7 @@ a,a:focus,a:hover{color:#696767}
 .menu-item::before{content:url(/wp/wp-content/themes/parlor/images/nav-bullet.png);margin-right:5px}}
 @media only screen and (-webkit-min-device-pixel-ratio:2)and (min-width:1300px),only screen and (min-device-pixel-ratio:2)and (min-width:1300px),only screen and (min-resolution:192dpi)and (min-width:1300px),only screen and (min-resolution:2dppx)and (min-width:1300px){.site-title{background:url(/wp/wp-content/themes/parlor/images/logo@2x.png)no-repeat;background-size:200px 41px;width:200px;height:41px;text-indent:-999px}
 .menu-item::before{content:url(/wp/wp-content/themes/parlor/images/nav-bullet@2x.png);margin-right:5px}}
-.site,.site-main,body,html{height:100%;min-height:100%}
+.site,.site-main,body,html{min-height:900px}
 .site{overflow-x:hidden}
 body{font-family:Quicksand,sans-serif}
 .site-header{margin:0 auto}
