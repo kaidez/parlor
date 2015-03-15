@@ -61,3 +61,7 @@ wp-content/wp-cache-config.php
 # Wordpress-related files added by kaidez
 # ---------------------------------------
 plugins/
+
+# Sitemap generated for unCSS
+# ---------------------------------------
+sitemap.json
