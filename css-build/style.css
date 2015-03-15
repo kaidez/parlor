@@ -411,6 +411,10 @@ a:visited {
   .row-inner-element {
     margin: 0;
   }
+  .page-copy-column {
+    width: 400px;
+    margin-right: 100px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .site-header {
@@ -558,6 +562,10 @@ a:visited {
     width: 100%;
   }
   .col-md-6 {
+    margin: 0 auto;
+  }
+  .page-copy-column {
+    width: 300px;
     margin: 0 auto;
   }
 }
