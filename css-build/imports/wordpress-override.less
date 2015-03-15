@@ -3,3 +3,26 @@
 .says, .screen-reader-text, .site-description {
 	.hide-element();
 }
+
+
+// Globally set the with for all page headers
+.entry-title {
+  max-width: 330px;
+
+  border-bottom: 1px solid rgba(76, 75, 75, 1);
+  text-transform: uppercase;
+}
+
+// Don't apply the above setting to the home page
+.home .entry-title {
+  max-width: none;
+
+  border-bottom-width: medium;
+  border-bottom-style: none;
+  border-bottom-color: currentColor;
+  text-transform: none;
+}
+
+.entry-content {
+  font-size: 18px;
+}
