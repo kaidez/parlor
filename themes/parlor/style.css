@@ -1504,7 +1504,7 @@ div.nav-menu>ul,ul.nav-menu{display:none}
 .toggled-on .nav-menu .children a,.toggled-on .nav-menu li:hover>a{background-color:transparent;color:#fff}
 .toggled-on .nav-menu>li a:hover,.toggled-on .nav-menu>ul a:hover{background-color:#db572f;color:#fff}
 .toggled-on .nav-menu>li a:focus,.toggled-on .nav-menu>ul a:focus{background-color:#220e10;color:#fff}
-.entry-content{min-width:320px;margin:0 auto}
+.entry-content{min-width:300px;margin:0 auto}
 .home .site-main{min-height:1249px}
 .home-page-info{padding:0 0 30px}
 .site-footer{height:42px;min-width:320px;width:100%}
