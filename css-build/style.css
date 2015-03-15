@@ -27,6 +27,9 @@
 .ti {
   text-indent: -999px;
 }
+.center {
+  margin: 0 auto;
+}
 .z1 {
   z-index: 1;
 }
@@ -354,6 +357,14 @@ a:visited {
   color: #696767;
   text-decoration: none;
 }
+/*
+ * =====================================================================
+ * Random stuff
+ * =====================================================================
+ */
+.product-links-header {
+  margin-top: 50px;
+}
 @media (min-width: 768px) {
   .site {
     margin: 0 auto;
@@ -404,6 +415,9 @@ a:visited {
     display: inline-block;
     vertical-align: top;
   }
+  .home-link {
+    margin-left: 16px;
+  }
 }
 @media (min-width: 1200px) {
   .page {
@@ -417,7 +431,6 @@ a:visited {
   }
   .site-header {
     max-width: 900px;
-    padding: 0 40px;
   }
   .home .site-main {
     min-height: 800px;
@@ -538,6 +551,9 @@ a:visited {
     min-width: 320px;
     width: 100%;
   }
+  .col-md-6 {
+    margin: 0 auto;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6 {
@@ -545,8 +561,34 @@ a:visited {
     display: inline-block;
     vertical-align: top;
   }
+  .home-link {
+    margin-left: 16px;
+  }
 }
+/*
+ * =====================================================================
+ * Global Fluid Responive Slideshow styles
+ * =====================================================================
+ */
 .frs-slideshow-container {
   margin: 0 auto !important;
   max-width: 277px !important;
+}
+.frs-photo-column {
+  margin-left: 0;
+}
+/*
+ * =====================================================================
+ * Fluid Responive Slideshow styles on tablet views and higher
+ * =====================================================================
+ */
+@media (max-width: 767px) {
+  .frs-photo-column {
+    margin: 0 auto;
+  }
+}
+@media (min-width: 768px) {
+  .frs-photo-column {
+    margin-left: 60px;
+  }
 }

@@ -1,7 +1,45 @@
+/*
+ * =====================================================================
+ * Global Fluid Responive Slideshow styles
+ * =====================================================================
+ */
+
+
+
 // Remove all slideshow padding
 // Sucks that "!important" is needed to do this, but there is no choice
 
 .frs-slideshow-container {
   margin: 0 auto !important;
   max-width: 277px !important;
+}
+
+// Override the right floating of the column below
+.frs-photo-column {
+  margin-left: 0;
+}
+
+
+/*
+ * =====================================================================
+ * Fluid Responive Slideshow styles on tablet views and higher
+ * =====================================================================
+ */
+
+// Float the column with the slideshow all push it a little to the left
+@media (max-width: 767px) {
+   
+  .frs-photo-column {
+  	margin: 0 auto;
+  }
+
+}
+
+// Float the column with the slideshow all push it a little to the left
+@media (min-width: 768px) {
+   
+  .frs-photo-column {
+  	margin-left: 60px;
+  }
+
 }
