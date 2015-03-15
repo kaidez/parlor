@@ -39,10 +39,18 @@
     .z5();
   }
 
-  // Position the hamburger menu
+  // Position the mobile nav
   .navbar {
     top: -51px;
     left: 28px;
+  }
+
+  
+
+  // Style the "MENU" copy that appears on handhelds
+  .menu-toggle {
+    font-weight: bolder;
+    cursor: pointer;
   }
 
   // Add a background color to the mobile drop-down menu
@@ -76,6 +84,8 @@
   .toggled-on .menu-toggle:after {
     vertical-align: 2px;
   }
+
+  
 
   .toggled-on .nav-menu,
   .toggled-on .nav-menu > ul {
@@ -125,7 +135,7 @@
 
   // Center the page content on handheld views
   .entry-content {
-    min-width: 300px;
+    max-width: 767px;
     margin: 0 auto;
   }
 

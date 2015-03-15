@@ -82,19 +82,30 @@ a:hover {
   clip: rect(1px, 1px, 1px, 1px);
 }
 .entry-title {
-  max-width: 330px;
   border-bottom: 1px solid #4c4b4b;
   text-transform: uppercase;
 }
 .home .entry-title {
   max-width: none;
-  border-bottom-width: medium;
-  border-bottom-style: none;
-  border-bottom-color: currentColor;
+  border-bottom: 0;
   text-transform: none;
 }
 .entry-content {
   font-size: 18px;
+}
+@media (max-width: 767px) {
+  .entry-title {
+    text-align: center;
+    text-decoration: underline;
+    border-bottom: 0;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .entry-title {
+    max-width: 330px;
+    border-bottom: 1px solid #4c4b4b;
+  }
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   /* Hand-held screen, non-retina */
@@ -365,11 +376,19 @@ a:visited {
 }
 /*
  * =====================================================================
- * Random stuff
+ * Product Page stuff
  * =====================================================================
  */
 .product-links-header {
   margin-top: 50px;
+}
+/*
+ * =====================================================================
+ * Contact Page stuff
+ * =====================================================================
+ */
+.contact-page-test {
+  margin-bottom: 50px;
 }
 @media (min-width: 768px) {
   .site {
@@ -484,6 +503,10 @@ a:visited {
     top: -51px;
     left: 28px;
   }
+  .menu-toggle {
+    font-weight: bolder;
+    cursor: pointer;
+  }
   .menu-main-container {
     background: #4f4b4b;
     color: #ffffff;
@@ -547,7 +570,7 @@ a:visited {
     color: #fff;
   }
   .entry-content {
-    min-width: 300px;
+    max-width: 767px;
     margin: 0 auto;
   }
   .home .site-main {
@@ -604,5 +627,26 @@ a:visited {
 @media (min-width: 768px) {
   .frs-photo-column {
     margin-left: 60px;
+  }
+}
+/*
+ * =====================================================================
+ * STYLES FOR CONTACT FORM 7
+ * =====================================================================
+ */
+.wpcf7-submit {
+  border-radius: 10px;
+  color: #ffffff;
+  background: #545454;
+  font-weight: bold;
+  padding: 8px;
+  border: currentColor;
+}
+@media (max-width: 767px) {
+  .wpcf7-form-control {
+    max-width: 300px;
+  }
+  .wpcf7 {
+    margin-top: 40px;
   }
 }

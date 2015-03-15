@@ -7,7 +7,6 @@
 
 // Globally set the with for all page headers
 .entry-title {
-  max-width: 330px;
 
   border-bottom: 1px solid rgba(76, 75, 75, 1);
   text-transform: uppercase;
@@ -17,12 +16,33 @@
 .home .entry-title {
   max-width: none;
 
-  border-bottom-width: medium;
-  border-bottom-style: none;
-  border-bottom-color: currentColor;
+  border-bottom: 0;
   text-transform: none;
 }
 
 .entry-content {
   font-size: 18px;
+}
+
+@media (max-width: 767px) {
+
+  .entry-title {
+    text-align: center;
+    text-decoration: underline;
+    border-bottom: 0;
+    margin-bottom: 30px;
+  }
+
+}
+
+
+
+@media (min-width: 768px) {
+
+  // Globally set the with for all page headers
+  .entry-title {
+    max-width: 330px; 
+    border-bottom: 1px solid rgba(76, 75, 75, 1);
+  }
+
 }
