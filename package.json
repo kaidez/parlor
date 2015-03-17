@@ -26,7 +26,7 @@
     "gulp-grunt": "^0.5.2",
     "gulp-imagemin": "^2.2.1",
     "gulp-minify-css": "^1.0.0",
-    "gulp-watch": "^4.1.1"
+    "gulp-watch": "^4.2.0"
   },
   "dependencies": {
     "grunt-exec": "^0.4.6",
