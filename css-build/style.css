@@ -406,16 +406,18 @@ a:visited {
   margin-bottom: 20px;
 }
 .service-section {
-  clear: both;
+  display: inline-block;
+  max-width: 440px;
+  max-width: 300px;
 }
 .single-service-copy {
   display: inline-block;
-}
-.service-type {
-  float: left;
+  width: 100px;
 }
 .service-price {
-  float: right;
+  position: relative;
+  width: auto;
+  left: 280px;
 }
 /*
  * =====================================================================
