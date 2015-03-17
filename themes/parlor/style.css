@@ -1477,6 +1477,7 @@ a:hover,a:visited{color:#25b8c0;text-decoration:none}
 .service-section{max-width:440px;max-width:300px}
 .single-service-copy{width:100px}
 .service-price{position:relative;width:auto;left:280px}
+.service-price::before{content:"$"}
 .contact-page-test{margin-bottom:50px}
 @media (min-width:768px){.site{margin:0 auto}
 .menu-toggle{display:none}
