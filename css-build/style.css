@@ -118,6 +118,9 @@ a:hover {
     max-width: 330px;
     border-bottom: 1px solid #4c4b4b;
   }
+  .page-id-44 .entry-title {
+    max-width: 460px;
+  }
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   /* Hand-held screen, non-retina */
@@ -392,12 +395,27 @@ a:visited {
  * Services Page stuff
  * =====================================================================
  */
+.service-page-section-headers {
+  font-size: 18px;
+}
 .service-list {
   padding-left: 20px;
   margin-top: 50px;
 }
 .service-list-item {
   margin-bottom: 20px;
+}
+.service-section {
+  clear: both;
+}
+.single-service-copy {
+  display: inline-block;
+}
+.service-type {
+  float: left;
+}
+.service-price {
+  float: right;
 }
 /*
  * =====================================================================
