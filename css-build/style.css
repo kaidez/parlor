@@ -415,7 +415,7 @@ a:visited {
 }
 .single-service-copy {
   display: inline-block;
-  width: 150px;
+  width: 208px;
 }
 .service-price {
   position: relative;
@@ -424,6 +424,9 @@ a:visited {
 }
 .service-price::before {
   content: "$";
+}
+.service-description-copy {
+  font-size: 14px;
 }
 /*
  * ====================================================================
@@ -687,7 +690,8 @@ a:visited {
    * ==================================================================
    */
   .service-price {
-    left: 119px;
+    left: 20px;
+    font-size: 15px;
   }
 }
 /*
