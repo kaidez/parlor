@@ -164,9 +164,9 @@ ul.nav-menu .focus > ul,
 }
 
 /*
- * =====================================================================
+ * ====================================================================
  * End main navigation styling
- * =====================================================================
+ * ====================================================================
  */
 
 // Space out the two rows on the home page
@@ -252,6 +252,15 @@ a {
  * ====================================================================
  */
 
+// Most service titles are two line but some that are one-line
+// HTML code is changed in WordPress CMS to accomadate
+// End result: some <h2> tags need to be hidden
+.hide-service-title {
+	.ti();
+	margin: 0;		
+}
+
+
 // Style the <h2> headers on each service...MEN, WOMEN, etc...
 .service-page-section-headers {
   font-size: 18px; 
@@ -279,7 +288,7 @@ a {
 // Reset that to display: inline-block
 .single-service-copy {
   display: inline-block;
-  width: 100px;
+  width: 150px;
 }
 
 // Style the service price text

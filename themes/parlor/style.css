@@ -20,7 +20,7 @@ body,figure{margin:0}
 .navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse,.pre-scrollable{max-height:340px}
 .popover>.arrow,.popover>.arrow:after,.tooltip-arrow{width:0;height:0;border-color:transparent;border-style:solid}
 .breadcrumb,.dropdown-menu,.list-inline,.list-unstyled,.media-list,.nav,.pager{list-style:none}
-.home .entry-title,.logo,.ti{text-indent:-999px}
+.hide-service-title,.home .entry-title,.logo,.ti{text-indent:-999px}
 html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;font-size:10px;-webkit-tap-highlight-color:transparent}
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
 audio,canvas,progress,video{display:inline-block;vertical-align:baseline}
@@ -1465,17 +1465,18 @@ div.nav-menu>ul,ul.nav-menu{margin:0}
 .nav-menu .focus>ul,.nav-menu ul li:hover>ul,ul.nav-menu .focus>ul,ul.nav-menu li:hover>ul{clip:inherit;overflow:inherit;height:inherit;width:inherit}
 .homepage-row{max-width:700px}
 .row-inner-element{margin:0 auto;max-width:277px}
-.product-links-header,.service-list{margin-top:50px}
 .art-exhibits-header{font-size:40px}
 .facebook-link-text{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
 a{color:#25b8c0;text-decoration:underline}
 a:hover,a:visited{color:#25b8c0;text-decoration:none}
 .menu-item a,.menu-item a:hover,.menu-item a:visited{color:#696767;text-decoration:none}
+.hide-service-title{margin:0}
+.product-links-header,.service-list{margin-top:50px}
 .service-page-section-headers{font-size:18px}
 .service-list{padding-left:20px}
 .service-list-item{margin-bottom:20px}
 .service-section{max-width:440px;max-width:300px}
-.single-service-copy{width:100px}
+.single-service-copy{width:150px}
 .service-price{position:relative;width:auto;left:160px}
 .service-price::before{content:"$"}
 .contact-page-test{margin-bottom:50px}
@@ -1497,7 +1498,8 @@ a:hover,a:visited{color:#25b8c0;text-decoration:none}
 .navbar{float:right;top:30px;left:8px}
 .site-header{max-width:900px}
 .home .site-main{min-height:800px}
-.site-footer{position:relative;height:30px;background:#ababab;color:#363030}}
+.site-footer{position:relative;height:30px;background:#ababab;color:#363030}
+.service-price{left:160px}}
 @media (max-width:767px){.site-header,.team-copy-column h3{text-align:center}
 .home-link{margin-left:30px}
 .contact-information{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
@@ -1524,9 +1526,11 @@ div.nav-menu>ul,ul.nav-menu{display:none}
 .site-footer{height:42px;min-width:320px;width:100%}
 .col-md-6{margin:0 auto}
 .page-copy-column{width:300px;margin:0 auto}
+.service-price{left:105px}
 .team-image-container{margin:0 auto;width:200px}}
 @media (min-width:768px)and (max-width:991px){.col-md-6{width:300px;display:inline-block;vertical-align:top}
-.home-link{margin-left:16px}}
+.home-link{margin-left:16px}
+.service-price{left:119px}}
 .frs-slideshow-container{margin:70px auto 0!important;max-width:277px!important}
 .frs-photo-column{margin-left:0}
 .wpcf7-submit{border-radius:10px;color:#fff;background:#545454;font-weight:700;padding:8px;border:none}
