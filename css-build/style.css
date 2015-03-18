@@ -11,7 +11,6 @@
   position: absolute;
 }
 .col-md-6-mixin {
-  width: 300px;
   display: inline-block;
   vertical-align: top;
 }
@@ -417,7 +416,7 @@ a:visited {
 .service-price {
   position: relative;
   width: auto;
-  left: 280px;
+  left: 160px;
 }
 .service-price::before {
   content: "$";
@@ -478,15 +477,20 @@ a:visited {
   .row-inner-element {
     margin: 0;
   }
+  .images-column {
+    margin-left: 70px;
+    width: 310px;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-6 {
+    display: inline-block;
+    vertical-align: top;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .site-header {
     max-width: 818px;
-  }
-  .col-md-6 {
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
   }
   .home-link {
     margin-left: 16px;
@@ -636,9 +640,9 @@ a:visited {
     margin: 0 auto;
   }
   /*
- * =====================================================================
+ * ====================================================================
  * STYLE THE TEAM PAGE
- * =====================================================================
+ * ====================================================================
  */
   .team-copy-column h3 {
     text-align: center;

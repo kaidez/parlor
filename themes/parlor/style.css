@@ -1409,7 +1409,7 @@ td.visible-print,th.visible-print{display:table-cell!important}}
 .col-md-6-mixin,.home-link,.nav-menu li,.service-section,.single-service-copy{display:inline-block}
 .logo{background-size:200px 41px;width:200px;height:41px}
 .facebook-image{background-size:20px 20px;width:20px;height:20px;position:absolute}
-.col-md-6-mixin{width:300px;vertical-align:top}
+.col-md-6-mixin{vertical-align:top}
 .hide-element{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
 .center{margin:0 auto}
 .z1{z-index:1}
@@ -1476,7 +1476,7 @@ a:hover,a:visited{color:#25b8c0;text-decoration:none}
 .service-list-item{margin-bottom:20px}
 .service-section{max-width:440px;max-width:300px}
 .single-service-copy{width:100px}
-.service-price{position:relative;width:auto;left:280px}
+.service-price{position:relative;width:auto;left:160px}
 .service-price::before{content:"$"}
 .contact-page-test{margin-bottom:50px}
 @media (min-width:768px){.site{margin:0 auto}
@@ -1488,9 +1488,10 @@ a:hover,a:visited{color:#25b8c0;text-decoration:none}
 .hours,.sitemap-link{float:right}
 .navbar{max-width:600px;left:28px}
 .home-page-info{padding-top:30px}
-.row-inner-element{margin:0}}
+.row-inner-element{margin:0}
+.images-column{margin-left:70px;width:310px}}
+@media (min-width:992px){.col-md-6{display:inline-block;vertical-align:top}}
 @media (min-width:992px)and (max-width:1199px){.site-header{max-width:818px}
-.col-md-6{width:300px;display:inline-block;vertical-align:top}
 .home-link{margin-left:16px}}
 @media (min-width:1200px){.page{width:auto;margin:0 auto}
 .navbar{float:right;top:30px;left:8px}
