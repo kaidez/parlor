@@ -6,5 +6,8 @@
 	// function theme_enqueue_styles() {
   //   wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 	// }
+  
+  // Remove extra <p> tags and (I think) <br /> tags from page content
+  remove_filter('the_content', 'wpautop');
 
 ?>
