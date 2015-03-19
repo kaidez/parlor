@@ -1472,8 +1472,7 @@ div.nav-menu>ul,ul.nav-menu{margin:0}
 .facebook-link-text{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
 a{color:#25b8c0;text-decoration:underline}
 a:hover,a:visited{color:#25b8c0;text-decoration:none}
-.menu-item a{color:#69ffff;text-decoration:none}
-.menu-item a:hover,.menu-item a:visited{color:#696767;text-decoration:none}
+.menu-item a,.menu-item a:hover,.menu-item a:visited{color:#696767;text-decoration:none}
 .hide-service-title{margin:0}
 .product-links-header,.service-list{margin-top:50px}
 .service-page-section-headers{font-size:16px}
@@ -1510,7 +1509,6 @@ a:hover,a:visited{color:#25b8c0;text-decoration:none}
 .navbar{float:right;top:30px;left:8px}
 .site-header{max-width:900px}
 .home .site-main{min-height:800px}
-.site-footer{position:relative;height:30px;background:#ababab;color:#363030}
 .service-price{left:160px}}
 @media (max-width:767px){.site-header,.team-copy-column h3{text-align:center}
 .home-link{margin-left:30px}

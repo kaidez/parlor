@@ -398,7 +398,7 @@ a:visited {
   text-decoration: none;
 }
 .menu-item a {
-  color: #69ffff;
+  color: #696767;
   text-decoration: none;
 }
 .menu-item a:hover {
@@ -592,12 +592,6 @@ a:visited {
   }
   .home .site-main {
     min-height: 800px;
-  }
-  .site-footer {
-    position: relative;
-    height: 30px;
-    background: #ababab;
-    color: #363030;
   }
   /*
    * ==================================================================
