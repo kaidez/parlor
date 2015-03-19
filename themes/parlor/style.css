@@ -1473,6 +1473,7 @@ div.nav-menu>ul,ul.nav-menu{margin:0}
 a{color:#25b8c0;text-decoration:underline}
 a:hover,a:visited{color:#25b8c0;text-decoration:none}
 .menu-item a,.menu-item a:hover,.menu-item a:visited{color:#696767;text-decoration:none}
+.artist-invite{text-align:center}
 .hide-service-title{margin:0}
 .product-links-header,.service-list{margin-top:50px}
 .service-page-section-headers{font-size:16px}
@@ -1540,7 +1541,7 @@ div.nav-menu>ul,ul.nav-menu{display:none}
 @media (min-width:768px)and (max-width:991px){.col-md-6{width:300px;display:inline-block;vertical-align:top}
 .home-link{margin-left:16px}
 .service-price{left:20px;font-size:15px}}
-.frs-slideshow-container{margin:70px auto 0!important;max-width:300px!important}
+.frs-slideshow-container{margin:0 auto!important;max-width:300px!important}
 .frs-photo-column{margin-left:0}
 .wpcf7-submit{border-radius:10px;color:#fff;background:#545454;font-weight:700;padding:8px;border:none}
 @media (max-width:767px){.frs-photo-column{margin:0 auto}
