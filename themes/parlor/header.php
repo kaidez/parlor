@@ -20,7 +20,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> itemscope="itemscope" itemtype="http://schema.org/WebPage">
 	<div class="contact-information">
     <div class="contact-information-inner">
       <span class="contact-information-element phone-number">t: 973.746.1182</span>
