@@ -1359,7 +1359,6 @@ button.close{-webkit-appearance:none;padding:0;cursor:pointer;background:0 0;bor
 .hidden,.visible-lg,.visible-lg-block,.visible-lg-inline,.visible-lg-inline-block,.visible-md,.visible-md-block,.visible-md-inline,.visible-md-inline-block,.visible-sm,.visible-sm-block,.visible-sm-inline,.visible-sm-inline-block,.visible-xs,.visible-xs-block,.visible-xs-inline,.visible-xs-inline-block{display:none!important}
 .invisible{visibility:hidden}
 .text-hide{font:0/0 a;color:transparent;background-color:transparent;border:0}
-.entry-content,.row{font-size:18px}
 .affix{position:fixed}
 @-ms-viewport{width:device-width}
 @media (max-width:767px){.visible-xs{display:block!important}
@@ -1419,19 +1418,21 @@ td.visible-print,th.visible-print{display:table-cell!important}}
 .z5{z-index:5}
 .bootstrap-row-margins{margin:0 auto 70px}
 a,a:focus,a:hover{color:#696767}
-.row{margin:0 auto}
+.row{font-size:18px;margin:0 auto}
 .col-md-3,.col-md-6,.col-md-9 .container{padding-right:0;padding-left:0}
+@media (max-width:767px){.col-xs-9{width:auto}}
 .says,.screen-reader-text,.site-description{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
-.entry-title{border-bottom:1px solid #4c4b4b}
+.entry-title{margin-bottom:35px;font-size:33px}
 .home .entry-title{max-width:none;border-bottom:0;text-transform:none}
+.entry-content{font-size:18px}
 .team-row{margin-bottom:60px}
 .page-id-24 .alignnone{border:1px solid #000}
 .gallery{margin-top:30px}
 .page-id-27 .images-column{width:320px}
-.gallery-item{width:150px;float:left;margin:3px;text-align:center}
-@media (max-width:767px){.entry-title{text-align:center;text-decoration:underline;border-bottom:0;margin-bottom:30px}}
+.gallery-item{width:150px;float:left;text-align:center}
+@media (max-width:767px){.entry-title{width:300px;margin:0 auto;text-align:center;font-size:34px}}
 .menu-item,.site-title{text-align:left}
-@media (min-width:768px){.entry-title{max-width:330px;border-bottom:1px solid #4c4b4b}
+@media (min-width:768px){.entry-title{width:330px}
 .page-id-44 .entry-title{max-width:460px}}
 @media only screen and (min-width:320px)and (max-width:767px){.site-title{background:url(/wp/wp-content/themes/parlor/images/logo.png)no-repeat;background-size:200px 41px;width:200px;height:41px;text-indent:-999px}}
 @media only screen and (-webkit-min-device-pixel-ratio:2)and (min-width:320px)and (max-width:767px),only screen and (min-device-pixel-ratio:2)and (min-width:320px)and (max-width:767px),only screen and (min-resolution:192dpi)and (min-width:320px)and (max-width:767px),only screen and (min-resolution:2dppx)and (min-width:320px)and (max-width:767px){.site-title{background:url(/wp/wp-content/themes/parlor/images/logo@2x.png)no-repeat;background-size:200px 41px;width:200px;height:41px;text-indent:-999px}}
@@ -1450,7 +1451,7 @@ a,a:focus,a:hover{color:#696767}
 body{max-width:100%;font-family:Quicksand,sans-serif}
 .site-header{margin:0 auto}
 .navbar{margin-bottom:0}
-.site-footer{height:42px;min-width:320px;width:100%;color:#fff;background-color:#ababab;font-weight:900}
+.site-footer{height:42px;min-width:320px;width:100%;color:#fff;background-color:#ababab;font-size:13px;font-weight:900}
 .site-footer-inner{margin:0 20px}
 .menu-item{list-style-type:none;margin-right:7px}
 .main-navigation-header{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
@@ -1511,7 +1512,7 @@ a:hover,a:visited{color:#25b8c0;text-decoration:none}
 .site-header{max-width:900px}
 .home .site-main{min-height:800px}
 .service-price{left:160px}}
-@media (max-width:767px){.site-header,.team-copy-column h3{text-align:center}
+@media (max-width:767px){.images-column,.site-header,.team-copy-column h3{text-align:center}
 .home-link{margin-left:30px}
 .contact-information{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
 .hamburger-menu{display:block;width:25px;height:4px;margin:5px 0;background:#000}
@@ -1537,10 +1538,12 @@ div.nav-menu>ul,ul.nav-menu{display:none}
 .col-md-6{margin:0 auto}
 .page-copy-column{width:300px;margin:0 auto}
 .service-price{left:0;position:relative;font-weight:900;color:#175d1b}
-.team-image-container{margin:0 auto;width:200px}}
+.team-image-container{margin:0 auto;width:200px;float:none;padding:0}
+.images-column{margin-top:50px}}
 @media (min-width:768px)and (max-width:991px){.col-md-6{width:300px;display:inline-block;vertical-align:top}
 .home-link{margin-left:16px}
-.service-price{left:20px;font-size:15px}}
+.service-price{left:20px;font-size:15px}
+.team-copy-column{padding-left:58px}}
 .frs-slideshow-container{margin:0 auto!important;max-width:300px!important}
 .frs-photo-column{margin-left:0}
 .wpcf7-submit{border-radius:10px;color:#fff;background:#545454;font-weight:700;padding:8px;border:none}
