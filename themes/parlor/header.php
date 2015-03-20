@@ -22,8 +22,8 @@
 
 <body <?php body_class(); ?> itemscope="itemscope" itemtype="http://schema.org/WebPage">
 	<div class="contact-information">
-    <div class="contact-information-inner">
-      <span class="contact-information-element phone-number">t: 973.746.1182</span>
+    <div class="contact-information-inner" itemscope itemtype="http://schema.org/LocalBusiness">
+      <span class="contact-information-element phone-number" itemprop="telephone">t:</span> <span class="contact-information-element phone-number" itemprop="telephone">973.746.1182</span>
 			<span class="contact-information-element address">223 glenridge ave, montclair, nj 07042</span>
 			<a href="https://www.facebook.com/pages/Parlor-Hair-Studio/153741038024144" class="facebook-link"><span class="facebook-link-text">Visit Parlor On Facebook</span></a>
 			 <span class="contact-information-element hours">hours: tues 10-7 / wed. 10-8 / thurs &amp; fri 11-8 / sat 10-5</span>
