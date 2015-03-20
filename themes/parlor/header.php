@@ -32,14 +32,14 @@
 
 	<div id="page" class="hfeed site">
 
-		<header id="masthead" class="site-header" role="banner">
+		<header id="masthead" class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/Organization">
 			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 				<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
 				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 			</a>
 
 			<div id="navbar" class="navbar">
-				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
+				<nav id="site-navigation" class="navigation main-navigation" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
 					<h3 class="main-navigation-header">Main Menu</h3>
 					<div class="menu-toggle">
 						<?php _e( '', 'twentythirteen' ); ?>
@@ -53,4 +53,4 @@
 			</div><!-- #navbar -->
 		</header><!-- #masthead -->
 
-		<div id="main" class="site-main container">
+		<div id="main" class="site-main container" itemprop="mainContentOfPage" itemscope="itemscope">
