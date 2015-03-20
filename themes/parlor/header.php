@@ -21,7 +21,7 @@
 </head>
 
 <body <?php body_class(); ?> itemscope="itemscope" itemtype="http://schema.org/WebPage">
-	<div class="contact-information" itemscope itemtype="http://schema.org/BeautySalon">
+	<div class="contact-information">
 	<div class="contact-information-inner">
 	  <span class="contact-information-element phone-number">t:</span>
 	  <span class="contact-information-element phone-number" itemprop="telephone">973.746.1182</span>
@@ -39,7 +39,7 @@
 
 	<div id="page" class="hfeed site">
 
-		<header id="masthead" class="site-header" role="banner" itemscope itemtype="http://schema.org/Organization">
+		<header id="masthead" class="site-header" role="banner" itemscope itemtype="http://schema.org/BeautySalon">
 			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 				<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
 				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
@@ -60,4 +60,4 @@
 			</div><!-- #navbar -->
 		</header><!-- #masthead -->
 
-		<div id="main" class="site-main container" itemprop="mainContentOfPage" itemscope="itemscope">
+		<main id="main" class="site-main container" itemprop="mainContentOfPage" itemscope="itemscope">
