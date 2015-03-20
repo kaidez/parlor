@@ -735,6 +735,9 @@ a:visited {
     width: 300px;
     margin: 0 auto;
   }
+  .artist-invite {
+    margin-top: 50px;
+  }
   /*
    * ==================================================================
    * Services Page stuff
