@@ -1430,7 +1430,7 @@ a,a:focus,a:hover{color:#696767}
 .gallery{margin-top:30px}
 .page-id-27 .images-column{width:320px}
 .gallery-item{width:150px;float:left;text-align:center}
-@media (max-width:767px){.entry-title{width:300px;margin:0 auto;text-align:center;font-size:34px}}
+@media (max-width:767px){.entry-title{width:300px;margin:0 auto 35px;text-align:center;font-size:34px}}
 .menu-item,.site-title{text-align:left}
 @media (min-width:768px){.entry-title{width:330px}
 .page-id-44 .entry-title{max-width:460px}}
@@ -1539,6 +1539,7 @@ div.nav-menu>ul,ul.nav-menu{display:none}
 .page-copy-column{width:300px;margin:0 auto}
 .service-price{left:0;position:relative;font-weight:900;color:#175d1b}
 .team-image-container{margin:0 auto;width:200px;float:none;padding:0}
+.team-member-name{margin-top:10px}
 .images-column{margin-top:50px}}
 @media (min-width:768px)and (max-width:991px){.col-md-6{width:300px;display:inline-block;vertical-align:top}
 .home-link{margin-left:16px}
