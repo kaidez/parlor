@@ -1551,4 +1551,5 @@ div.nav-menu>ul,ul.nav-menu{display:none}
 .wpcf7-submit{border-radius:10px;color:#fff;background:#545454;font-weight:700;padding:8px;border:none}
 @media (max-width:767px){.frs-photo-column{margin:0 auto}
 .wpcf7-form-control{max-width:300px}
-.wpcf7{margin-top:40px}}
+.wpcf7{margin-top:40px}
+.breadcrumbs{width:300px;margin:0 auto}}

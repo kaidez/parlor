@@ -29,7 +29,9 @@ get_header(); ?>
 
 						<h1 class="entry-title"><?php the_title(); ?></h1>
 					</header><!-- .entry-header -->
-
+          <?php if ( function_exists('yoast_breadcrumb') ) {
+            yoast_breadcrumb('<p class="breadcrumbs">','</p>');
+          } ?>
 					<div class="entry-content" itemprop="text">
 						<?php the_content(); ?>
 						<?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentythirteen' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
