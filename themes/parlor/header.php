@@ -21,18 +21,25 @@
 </head>
 
 <body <?php body_class(); ?> itemscope="itemscope" itemtype="http://schema.org/WebPage">
-	<div class="contact-information">
-    <div class="contact-information-inner" itemscope itemtype="http://schema.org/LocalBusiness">
-      <span class="contact-information-element phone-number" itemprop="telephone">t:</span> <span class="contact-information-element phone-number" itemprop="telephone">973.746.1182</span>
-			<span class="contact-information-element address">223 glenridge ave, montclair, nj 07042</span>
-			<a href="https://www.facebook.com/pages/Parlor-Hair-Studio/153741038024144" class="facebook-link"><span class="facebook-link-text">Visit Parlor On Facebook</span></a>
-			 <span class="contact-information-element hours">hours: tues 10-7 / wed. 10-8 / thurs &amp; fri 11-8 / sat 10-5</span>
+	<div class="contact-information" itemscope itemtype="http://schema.org/BeautySalon">
+	<div class="contact-information-inner">
+	  <span class="contact-information-element phone-number">t:</span>
+	  <span class="contact-information-element phone-number" itemprop="telephone">973.746.1182</span>
+    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+			<span class="contact-information-element address" itemprop="streetAddress">223 glenridge ave</span>,
+			<span class="contact-information-element address" itemprop="addressLocality">montclair</span>,
+			<span class="contact-information-element address" itemprop="addressRegion">nj</span>
+			<span class="contact-information-element address" itemprop="postalCode">07042</span>
+			<a href="https://www.facebook.com/pages/Parlor-Hair-Studio/153741038024144" rel="external" class="facebook-link"><span class="facebook-link-text" target="_blank">Visit Parlor On Facebook</span></a>	 
+		
+		  <span class="contact-information-element hours" itemprop="openingHours">hours: tues 10-7 / wed. 10-8 / thurs &amp; fri 11-8 / sat 10-5</span>
+		</div> <!-- .contact-information-inner -->
 		</div>
 	</div> <!-- contact-information -->
 
 	<div id="page" class="hfeed site">
 
-		<header id="masthead" class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/Organization">
+		<header id="masthead" class="site-header" role="banner" itemscope itemtype="http://schema.org/Organization">
 			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 				<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
 				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
