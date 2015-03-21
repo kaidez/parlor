@@ -129,6 +129,7 @@ a:hover {
 .gallery-item {
   width: 150px;
   float: left;
+  font-size: 15px;
   text-align: center;
 }
 @media (max-width: 767px) {

@@ -1429,7 +1429,7 @@ a,a:focus,a:hover{color:#696767}
 .page-id-24 .alignnone{border:1px solid #000}
 .gallery{margin-top:30px}
 .page-id-27 .images-column{width:320px}
-.gallery-item{width:150px;float:left;text-align:center}
+.gallery-item{width:150px;float:left;font-size:15px;text-align:center}
 @media (max-width:767px){.entry-title{width:300px;margin:0 auto 35px;text-align:center;font-size:34px}}
 .menu-item,.site-title{text-align:left}
 @media (min-width:768px){.entry-title{width:330px}
