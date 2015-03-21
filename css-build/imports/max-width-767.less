@@ -213,4 +213,11 @@
     margin-top: 50px;
   }
 
+  // Links for lightbox images are acting weird
+  // Pushing up their z-indexes seems to fix it
+  a[rel*="lightbox"] {
+    .z2();
+    position: relative;
+  }
+
 }
