@@ -408,6 +408,19 @@ a:visited {
   color: #25b8c0;
   text-decoration: none;
 }
+a.map-link {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0 14px;
+}
+a.map-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+a.map-link:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
 .menu-item a {
   color: #696767;
   text-decoration: none;
@@ -629,6 +642,10 @@ a:visited {
     text-align: center;
   }
   .contact-information {
+    height: 46px;
+    text-align: center;
+  }
+  .address-container {
     position: absolute !important;
     clip: rect(1px 1px 1px 1px);
     /* IE6, IE7 */
