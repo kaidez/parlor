@@ -793,7 +793,8 @@ a.map-link:visited {
     margin-top: 50px;
     text-align: center;
   }
-  a[rel*="lightbox"] {
+  .gallery a,
+  .home-link {
     z-index: 2;
     position: relative;
   }

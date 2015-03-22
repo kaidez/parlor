@@ -219,9 +219,9 @@
     text-align: center;
   }
 
-  // Links for lightbox images are acting weird
+  // Links on the logo link & lightbox images act weird on handhelds
   // Pushing up their z-indexes seems to fix it
-  a[rel*="lightbox"] {
+  .gallery a, .home-link {
     .z2();
     position: relative;
   }

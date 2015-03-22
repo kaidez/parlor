@@ -1546,7 +1546,7 @@ div.nav-menu>ul,ul.nav-menu{display:none}
 .team-image-container{margin:0 auto;width:200px;float:none;padding:0}
 .team-member-name{margin-top:10px}
 .images-column{margin-top:50px}
-a[rel*=lightbox]{z-index:2;position:relative}
+.gallery a,.home-link{z-index:2;position:relative}
 .page-id-27 .images-column{clear:both;padding-top:17px;text-align:left}}
 @media (min-width:768px)and (max-width:991px){.col-md-6{width:300px;display:inline-block;vertical-align:top}
 .home-link{margin-left:16px}
