@@ -30,7 +30,7 @@ get_header(); ?>
 						<h1 class="entry-title" itemprop="headline"><?php the_title(); ?></h1>
 					</header><!-- .entry-header -->
           <?php if ( function_exists('yoast_breadcrumb') ) {
-            yoast_breadcrumb('<p class="breadcrumbs">','</p>');
+            yoast_breadcrumb('<p class="breadcrumbs" itemprop="breadcrumb">','</p>');
           } ?>
 					<div class="entry-content" itemprop="text">
 						<?php the_content(); ?>
