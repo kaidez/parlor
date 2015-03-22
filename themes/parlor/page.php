@@ -27,7 +27,7 @@ get_header(); ?>
 						</div>
 						<?php endif; ?>
 
-						<h1 class="entry-title"><?php the_title(); ?></h1>
+						<h1 class="entry-title" itemprop="headline"><?php the_title(); ?></h1>
 					</header><!-- .entry-header -->
           <?php if ( function_exists('yoast_breadcrumb') ) {
             yoast_breadcrumb('<p class="breadcrumbs">','</p>');

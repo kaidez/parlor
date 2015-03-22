@@ -40,8 +40,9 @@
 	<div id="page" class="hfeed site">
 
 		<header id="masthead" class="site-header" role="banner" itemscope itemtype="http://schema.org/BeautySalon">
-			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-				<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
+			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home" itemprop="url">
+				<h1 class="site-title" itemprop="name"><?php bloginfo( 'name' ); ?></h1>
+				<meta itemprop="logo" content="http://www.parlorhairstudio.com/wp-content/themes/parlor/images/logo@2x.png">
 				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 			</a>
 
