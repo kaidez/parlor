@@ -19,7 +19,7 @@ get_header(); ?>
 			<?php /* The loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> itemscope itemtype="http://schema.org/Article">
+				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 					<header class="entry-header">
 						<?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
 						<div class="entry-thumbnail">
@@ -27,12 +27,12 @@ get_header(); ?>
 						</div>
 						<?php endif; ?>
 
-						<h1 class="entry-title" itemprop="headline"><?php the_title(); ?></h1>
+						<h1 class="entry-title" itemprop="name"><?php the_title(); ?></h1>
 					</header><!-- .entry-header -->
           <?php if ( function_exists('yoast_breadcrumb') ) {
             yoast_breadcrumb('<p class="breadcrumbs" itemprop="breadcrumb">','</p>');
           } ?>
-					<div class="entry-content" itemprop="text">
+					<div class="entry-content" itemprop="description">
 						<?php the_content(); ?>
 						<?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentythirteen' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
 					</div><!-- .entry-content -->
@@ -41,8 +41,6 @@ get_header(); ?>
 						<?php edit_post_link( __( 'Edit', 'twentythirteen' ), '<span class="edit-link">', '</span>' ); ?>
 					</footer><!-- .entry-meta -->
 				</article><!-- #post -->
-
-				<?php comments_template(); ?>
 			<?php endwhile; ?>
 
 		</div><!-- #content -->

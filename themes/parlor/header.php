@@ -25,14 +25,22 @@
 	<div class="contact-information-inner">
 	  <span class="contact-information-element phone-number">t:</span>
 	  <span class="contact-information-element phone-number" itemprop="telephone">973.746.1182</span>
-    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="address-container">
 			<span class="contact-information-element address" itemprop="streetAddress">223 glenridge ave</span>,
 			<span class="contact-information-element address" itemprop="addressLocality">montclair</span>,
 			<span class="contact-information-element address" itemprop="addressRegion">nj</span>
 			<span class="contact-information-element address" itemprop="postalCode">07042</span>
+			<span class="contact-information-element">
+		    <a href="https://www.google.com/maps?ion=1&espv=2&bav=on.2,or.r_cp.&bvm=bv.88528373,d.eXY&biw=1439&bih=779&dpr=2&um=1&ie=UTF-8&q=parlor+hair+studio&fb=1&gl=us&hq=parlor+hair+studio&cid=10383156108213620647&sa=X&ei=bqcOVYbTHZOTNreGgoAC&ved=0CCgQrwswAA" class="map-link" itemprop="maps">map</a>
+		  </span>
 			<a href="https://www.facebook.com/pages/Parlor-Hair-Studio/153741038024144" rel="external" class="facebook-link"><span class="facebook-link-text" target="_blank">Visit Parlor On Facebook</span></a>	 
 		
-		  <span class="contact-information-element hours" itemprop="openingHours">hours: tues 10-7 / wed. 10-8 / thurs &amp; fri 11-8 / sat 10-5</span>
+		  <span class="contact-information-element hours" itemprop="openingHours">hours: tues 10-7 / wed. 10-8 / thurs &amp; fri 	11-8 / sat 10-5</span>
+
+
+
+
+
 		</div> <!-- .contact-information-inner -->
 		</div>
 	</div> <!-- contact-information -->
