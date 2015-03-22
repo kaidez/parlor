@@ -213,7 +213,7 @@ ul.nav-menu .focus > ul,
  * ====================================================================
  */
 
-// Style pseudo classes for all links in the content
+// Style pseudo classes for all links EXCEPT the map links
 a {
   color: rgba(37, 184, 192, 1);
   text-decoration: underline;
@@ -225,6 +225,24 @@ a {
 
   &:visited	 {
     color: rgba(37, 184, 192, 1);
+    text-decoration: none;
+  }
+
+}
+
+// Style pseudo classes for the map link
+a.map-link {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  padding: 0 14px;
+
+  &:hover {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: underline;
+  }
+
+  &:visited	 {
+    color: rgba(255, 255, 255, 1);
     text-decoration: none;
   }
 
