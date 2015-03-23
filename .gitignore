@@ -66,5 +66,6 @@ plugins/
 # ---------------------------------------
 sitemap.json
 
+index.php
 notes.md
 private-notes.md
