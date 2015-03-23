@@ -1477,6 +1477,7 @@ a.map-link{color:#fff;text-decoration:none;padding:0 14px}
 a.map-link:hover{color:#fff;text-decoration:underline}
 a.map-link:visited{color:#fff;text-decoration:none}
 .menu-item a,.menu-item a:hover,.menu-item a:visited{color:#696767;text-decoration:none}
+.sub-menu .menu-item a,.sub-menu .menu-item a:hover,.sub-menu .menu-item a:visited{color:#fff;text-decoration:none}
 .artist-invite{text-align:center}
 .hide-service-title{margin:0}
 .product-links-header,.service-list{margin-top:50px}
