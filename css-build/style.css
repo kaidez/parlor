@@ -2,7 +2,7 @@
   background-size: 200px 41px;
   width: 200px;
   height: 41px;
-  text-indent: -999px;
+  text-indent: -9999px;
 }
 .facebook-image {
   background-size: 20px 20px;
@@ -24,7 +24,7 @@
   clip: rect(1px, 1px, 1px, 1px);
 }
 .ti {
-  text-indent: -999px;
+  text-indent: -9999px;
 }
 .center {
   margin: 0 auto;
@@ -155,7 +155,7 @@ a:hover {
     background-size: 200px 41px;
     width: 200px;
     height: 41px;
-    text-indent: -999px;
+    text-indent: -9999px;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 320px) and (max-width: 767px), only screen and (min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), only screen and (min-resolution: 192dpi) and (min-width: 320px) and (max-width: 767px), only screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px) {
@@ -165,7 +165,7 @@ a:hover {
     background-size: 200px 41px;
     width: 200px;
     height: 41px;
-    text-indent: -999px;
+    text-indent: -9999px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -175,7 +175,7 @@ a:hover {
     background-size: 200px 41px;
     width: 200px;
     height: 41px;
-    text-indent: -999px;
+    text-indent: -9999px;
   }
   .menu-item::before {
     content: url(/wp/wp-content/themes/parlor/images/nav-bullet.png);
@@ -195,7 +195,7 @@ a:hover {
     background-size: 200px 41px;
     width: 200px;
     height: 41px;
-    text-indent: -999px;
+    text-indent: -9999px;
   }
   .facebook-link {
     background: url(/wp/wp-content/themes/parlor/images/facebook-image@2x.png) no-repeat;
@@ -216,7 +216,7 @@ a:hover {
     background-size: 200px 41px;
     width: 200px;
     height: 41px;
-    text-indent: -999px;
+    text-indent: -9999px;
   }
   .menu-item::before {
     content: url(/wp/wp-content/themes/parlor/images/nav-bullet.png);
@@ -230,7 +230,7 @@ a:hover {
     background-size: 200px 41px;
     width: 200px;
     height: 41px;
-    text-indent: -999px;
+    text-indent: -9999px;
   }
   .menu-item::before {
     content: url(/wp/wp-content/themes/parlor/images/nav-bullet@2x.png);
@@ -241,7 +241,7 @@ html,
 body,
 .site,
 .site-main {
-  min-height: 900px;
+  min-height: 1250px;
 }
 .site {
   width: 100%;
@@ -252,7 +252,7 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 .home .entry-title {
-  text-indent: -999px;
+  text-indent: -9999px;
 }
 .site-title {
   text-align: left;
@@ -459,7 +459,7 @@ a.map-link:visited {
  * ====================================================================
  */
 .hide-service-title {
-  text-indent: -999px;
+  text-indent: -9999px;
   margin: 0;
 }
 .service-page-section-headers {
