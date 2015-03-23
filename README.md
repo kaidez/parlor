@@ -1,4 +1,4 @@
-# Parlor Hair Studio ([visit the site &raquo;](http://parlorhairstudio.com/))
+# Parlor Hair Studio WordPress Source Files
 
 These are WordPress child theme source files for Parlor Hair Studio site. It's based on the WordPrss twentythirteen theme.
 
