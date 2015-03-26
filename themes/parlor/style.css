@@ -1433,18 +1433,18 @@ a,a:focus,a:hover{color:#696767}
 .menu-item,.site-title{text-align:left}
 @media (min-width:768px){.entry-title{width:330px}
 .page-id-44 .entry-title{max-width:460px}}
-@media only screen and (min-width:320px)and (max-width:767px){.site-title{background:url(/wp/wp-content/themes/parlor/images/logo.png)no-repeat;background-size:200px 41px;width:200px;height:41px;text-indent:-9999px}}
-@media only screen and (-webkit-min-device-pixel-ratio:2)and (min-width:320px)and (max-width:767px),only screen and (min-device-pixel-ratio:2)and (min-width:320px)and (max-width:767px),only screen and (min-resolution:192dpi)and (min-width:320px)and (max-width:767px),only screen and (min-resolution:2dppx)and (min-width:320px)and (max-width:767px){.site-title{background:url(/wp/wp-content/themes/parlor/images/logo@2x.png)no-repeat;background-size:200px 41px;width:200px;height:41px;text-indent:-9999px}}
-@media only screen and (min-width:768px){.site-title{background:url(/wp/wp-content/themes/parlor/images/logo.png)no-repeat;background-size:200px 41px;width:200px;height:41px;text-indent:-9999px}
-.menu-item::before{content:url(/wp/wp-content/themes/parlor/images/nav-bullet.png);margin-right:5px}
-.facebook-link{background:url(/wp/wp-content/themes/parlor/images/facebook-image.png)no-repeat;background-size:20px 20px;width:20px;height:20px;position:absolute}}
-@media only screen and (-webkit-min-device-pixel-ratio:2)and (min-width:768px),only screen and (min-device-pixel-ratio:2)and (min-width:768px),only screen and (min-resolution:192dpi)and (min-width:768px),only screen and (min-resolution:2dppx)and (min-width:768px){.site-title{background:url(/wp/wp-content/themes/parlor/images/logo@2x.png)no-repeat;background-size:200px 41px;width:200px;height:41px;text-indent:-9999px}
-.facebook-link{background:url(/wp/wp-content/themes/parlor/images/facebook-image@2x.png)no-repeat;background-size:20px 20px;width:20px;height:20px;position:absolute}
-.menu-item::before{content:url(/wp/wp-content/themes/parlor/images/nav-bullet@2x.png);margin-right:5px}}
-@media only screen and (min-width:1300px){.site-title{background:url(/wp/wp-content/themes/parlor/images/logo.png)no-repeat;background-size:200px 41px;width:200px;height:41px;text-indent:-9999px}
-.menu-item::before{content:url(/wp/wp-content/themes/parlor/images/nav-bullet.png);margin-right:5px}}
-@media only screen and (-webkit-min-device-pixel-ratio:2)and (min-width:1300px),only screen and (min-device-pixel-ratio:2)and (min-width:1300px),only screen and (min-resolution:192dpi)and (min-width:1300px),only screen and (min-resolution:2dppx)and (min-width:1300px){.site-title{background:url(/wp/wp-content/themes/parlor/images/logo@2x.png)no-repeat;background-size:200px 41px;width:200px;height:41px;text-indent:-9999px}
-.menu-item::before{content:url(/wp/wp-content/themes/parlor/images/nav-bullet@2x.png);margin-right:5px}}
+@media only screen and (min-width:320px)and (max-width:767px){.site-title{background:url(/wp-content/themes/parlor/images/logo.png)no-repeat;background-size:200px 41px;width:200px;height:41px;text-indent:-9999px}}
+@media only screen and (-webkit-min-device-pixel-ratio:2)and (min-width:320px)and (max-width:767px),only screen and (min-device-pixel-ratio:2)and (min-width:320px)and (max-width:767px),only screen and (min-resolution:192dpi)and (min-width:320px)and (max-width:767px),only screen and (min-resolution:2dppx)and (min-width:320px)and (max-width:767px){.site-title{background:url(/wp-content/themes/parlor/images/logo@2x.png)no-repeat;background-size:200px 41px;width:200px;height:41px;text-indent:-9999px}}
+@media only screen and (min-width:768px){.site-title{background:url(/wp-content/themes/parlor/images/logo.png)no-repeat;background-size:200px 41px;width:200px;height:41px;text-indent:-9999px}
+.menu-item::before{content:url(/wp-content/themes/parlor/images/nav-bullet.png);margin-right:5px}
+.facebook-link{background:url(/wp-content/themes/parlor/images/facebook-image.png)no-repeat;background-size:20px 20px;width:20px;height:20px;position:absolute}}
+@media only screen and (-webkit-min-device-pixel-ratio:2)and (min-width:768px),only screen and (min-device-pixel-ratio:2)and (min-width:768px),only screen and (min-resolution:192dpi)and (min-width:768px),only screen and (min-resolution:2dppx)and (min-width:768px){.site-title{background:url(/wp-content/themes/parlor/images/logo@2x.png)no-repeat;background-size:200px 41px;width:200px;height:41px;text-indent:-9999px}
+.facebook-link{background:url(/wp-content/themes/parlor/images/facebook-image@2x.png)no-repeat;background-size:20px 20px;width:20px;height:20px;position:absolute}
+.menu-item::before{content:url(/wp-content/themes/parlor/images/nav-bullet@2x.png);margin-right:5px}}
+@media only screen and (min-width:1300px){.site-title{background:url(/wp-content/themes/parlor/images/logo.png)no-repeat;background-size:200px 41px;width:200px;height:41px;text-indent:-9999px}
+.menu-item::before{content:url(/wp-content/themes/parlor/images/nav-bullet.png);margin-right:5px}}
+@media only screen and (-webkit-min-device-pixel-ratio:2)and (min-width:1300px),only screen and (min-device-pixel-ratio:2)and (min-width:1300px),only screen and (min-resolution:192dpi)and (min-width:1300px),only screen and (min-resolution:2dppx)and (min-width:1300px){.site-title{background:url(/wp-content/themes/parlor/images/logo@2x.png)no-repeat;background-size:200px 41px;width:200px;height:41px;text-indent:-9999px}
+.menu-item::before{content:url(/wp-content/themes/parlor/images/nav-bullet@2x.png);margin-right:5px}}
 .site,.site-main,body,html{min-height:1250px}
 .site{width:100%;overflow-x:hidden}
 body{max-width:100%;font-family:Quicksand,sans-serif}
@@ -1513,7 +1513,7 @@ a.map-link:visited{color:#fff;text-decoration:none}
 @media (min-width:1200px){.page{width:auto;margin:0 auto}
 .navbar{float:right;top:30px;left:8px}
 .site-header{max-width:900px}
-.home .site-main{min-height:800px}
+.home .site-main{min-height:1300px}
 .service-price{left:160px}}
 @media (max-width:767px){.images-column,.site-header,.team-copy-column h3{text-align:center}
 .home-link{margin-left:30px}
