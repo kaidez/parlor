@@ -547,16 +547,19 @@ a.map-link:visited {
 .sitemap-link {
   float: right;
 }
-.sitemap-link a {
+.sitemap-link a,
+.instagram a {
   color: #ffffff;
   text-decoration: none;
   font-weight: bolder;
 }
-.sitemap-link a:hover {
+.sitemap-link a:hover,
+.instagram a:hover {
   color: #ffffff;
   text-decoration: none;
 }
-.sitemap-link a:visited {
+.sitemap-link a:visited,
+.instagram a:visited {
   color: #ffffff;
   text-decoration: none;
 }
@@ -815,6 +818,18 @@ a.map-link:visited {
     padding-top: 17px;
     width: 290px;
     text-align: left;
+  }
+  .site-footer {
+    height: 70px;
+  }
+  /* style the instagram link on the footer */
+  .instagram {
+    margin: 8px 0;
+    display: inherit;
+  }
+  /* Keep the sitemap link from floating on mobile devices */
+  .sitemap-link {
+    float: none;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
