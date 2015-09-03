@@ -548,18 +548,18 @@ a.map-link:visited {
   float: right;
 }
 .sitemap-link a,
-.instagram a {
+.social-footer-link a {
   color: #ffffff;
   text-decoration: none;
   font-weight: bolder;
 }
 .sitemap-link a:hover,
-.instagram a:hover {
+.social-footer-link a:hover {
   color: #ffffff;
   text-decoration: none;
 }
 .sitemap-link a:visited,
-.instagram a:visited {
+.social-footer-link a:visited {
   color: #ffffff;
   text-decoration: none;
 }
@@ -615,6 +615,10 @@ a.map-link:visited {
   /* Style the model form */
   #wpcf7-f530-p527-o1 {
     margin-left: 20px;
+  }
+  .social-footer-link {
+    display: inline-block;
+    margin: 0 15px;
   }
 }
 @media (min-width: 992px) {
@@ -827,10 +831,10 @@ a.map-link:visited {
     text-align: left;
   }
   .site-footer {
-    height: 70px;
+    height: 103px;
   }
   /* style the instagram link on the footer */
-  .instagram {
+  .social-footer-link {
     margin: 8px 0;
     display: inherit;
   }
