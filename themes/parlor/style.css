@@ -1564,6 +1564,8 @@ a.map-link:visited{color:#fff;text-decoration:none}
 .row-inner-element{margin:0}
 .images-column{margin-left:70px;width:310px}
 .service-price{width:auto}
+.parlor-model-copy{margin:0 0 20px 20px}
+#wpcf7-f530-p527-o1{margin-left:20px}
 }
 @media (min-width:992px){.col-md-6{display:inline-block;vertical-align:top}
 }
@@ -1612,6 +1614,7 @@ div.nav-menu>ul,ul.nav-menu{display:none}
 .site-footer{height:70px}
 .instagram{margin:8px 0;display:inherit}
 .sitemap-link{float:none}
+.parlor-model-copy{margin:20px 0}
 }
 @media (min-width:768px) and (max-width:991px){.col-md-6{width:300px;display:inline-block;vertical-align:top}
 .home-link{margin-left:1pc}
